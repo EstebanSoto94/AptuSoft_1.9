@@ -322,11 +322,13 @@ namespace Aptusoft.Maquinaria
             try
             {
                 ma.eliminaMaquinaria(txtCodigo.Text.Trim());
-                MessageBox.Show("");
+                MessageBox.Show("Maquinaria Eliminada Correctamante", "Eliminado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                limpiar();
+                cambiaEnabledFalse();
             }
             catch(Exception ex)
             {
-
+                MessageBox.Show("No se Pudo Eliminar Registro: " + ex.ToString(),"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
         }

@@ -307,6 +307,12 @@
     <Compile Include="Maquinaria\frmMaquinaria.Designer.cs">
       <DependentUpon>frmMaquinaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Maquinaria\frmRecepcionMaquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquinaria\frmRecepcionMaquinaria.Designer.cs">
+      <DependentUpon>frmRecepcionMaquinaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Maquinaria\Maquinaria.cs" />
     <Compile Include="Maquinaria\MaquinariaVO.cs" />
     <Compile Include="Odepa.cs" />
@@ -1217,6 +1223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Maquinaria\frmMaquinaria.resx">
       <DependentUpon>frmMaquinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquinaria\frmRecepcionMaquinaria.resx">
+      <DependentUpon>frmRecepcionMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Promocion\Formularios\frmPromocion.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
