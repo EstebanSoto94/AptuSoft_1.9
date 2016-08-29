@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Documents and Settings\VORTEX\Escritorio\1.6.6\FullPyme_Electronica.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{109EB42D-B6F3-42DD-A38A-49290771F78B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>AptuSoft</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Aptusoft</RootNamespace>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\linker\Desktop\aptusoft\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>http://www.aptusoft.cl/web</SupportUrl>
+    <ErrorReportUrl>http://www.aptusoft.cl/web</ErrorReportUrl>
+    <ProductName>AptuSoft 1.8.1</ProductName>
+    <PublisherName>aptusoft</PublisherName>
+    <SuiteName>Aptusoft</SuiteName>
+    <MinimumRequiredVersion>1.8.1.254</MinimumRequiredVersion>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>255</ApplicationRevision>
+    <ApplicationVersion>1.8.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\AptuSoft\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <FileAlignment>2048</FileAlignment>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\AptuSoft\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AptuSoft\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\AptuSoft\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo_64x64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4A531D8A3DB22219115F9630B2315138EA2C8EF5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Vortexerp_Electronica_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Aptusoft.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxAcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\AxAcroPDFLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.OCXSAM350Lib">
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\AxInterop.OCXSAM350Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxOcxsam350, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\AxOcxsam350.dll</HintPath>
+    </Reference>
+    <Reference Include="AxOCXSAM350Lib">
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\AxOCXSAM350Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\AptuSoft\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="crystaldecisions.crystalreports.engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\crystaldecisions.crystalreports.engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\CrystalDecisions.Data.AdoDotNetInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="crystaldecisions.reportsource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\crystaldecisions.reportsource.dll</HintPath>
+    </Reference>
+    <Reference Include="crystaldecisions.shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\crystaldecisions.shared.dll</HintPath>
+    </Reference>
+    <Reference Include="crystaldecisions.windows.forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\crystaldecisions.windows.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CrystalAnalysisCommLayerLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalAnalysisCommLayerLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.CrystalAnalysisCommonControlsLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalAnalysisCommonControlsLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.CrystalClientDocLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalClientDocLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.CrystalReportsCommonObjectModelLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalReportsCommonObjectModelLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.CrystalReportsControllersLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalReportsControllersLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.CrystalReportsDataDefModelLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalReportsDataDefModelLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.CrystalReportsReportDefModelLib">
+      <HintPath>C:\AptuSoft\Interop.CrystalReportsReportDefModelLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.4.4.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\AptuSoft\dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook">
+      <HintPath>E:\Vortex2.5.0\VORTEXcod\Referencias\Microsoft.Office.Interop.Outlook.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\AptuSoft\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Boleta.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfiguracionCorreo.cs" />
+    <Compile Include="ConfiguracionCorreoVO.cs" />
+    <Compile Include="CorreoClase.cs" />
+    <Compile Include="CorreoVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\Infoticket.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\TotalesSegmento.cs" />
+    <Compile Include="FacturaElectronica\Formularios\frmFacturaElectronicaFrigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\SubeXMLToDb.cs" />
+    <Compile Include="frmConfiguracionCorreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguracionCorreo.Designer.cs">
+      <DependentUpon>frmConfiguracionCorreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfSync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfSync.Designer.cs">
+      <DependentUpon>FrmConfSync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCorreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCorreo.Designer.cs">
+      <DependentUpon>frmCorreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresoBoletasManuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoBoletasManuales.Designer.cs">
+      <DependentUpon>frmIngresoBoletasManuales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArriendoMaquinas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArriendoMaquinas.Designer.cs">
+      <DependentUpon>FrmArriendoMaquinas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodeBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodeBar.Designer.cs">
+      <DependentUpon>frmCodeBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOdepa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOdepa.Designer.cs">
+      <DependentUpon>frmOdepa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassWord.Designer.cs">
+      <DependentUpon>frmPassWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSincronizadorBoletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSincronizadorBoletas.Designer.cs">
+      <DependentUpon>frmSincronizadorBoletas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquinaria\Estado.cs" />
+    <Compile Include="Maquinaria\EstadoVO.cs" />
+    <Compile Include="Maquinaria\frmEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquinaria\frmEstado.Designer.cs">
+      <DependentUpon>frmEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquinaria\frmMaquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquinaria\frmMaquinaria.Designer.cs">
+      <DependentUpon>frmMaquinaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquinaria\Maquinaria.cs" />
+    <Compile Include="Maquinaria\MaquinariaVO.cs" />
+    <Compile Include="Odepa.cs" />
+    <Compile Include="OdepaVO.cs" />
+    <Compile Include="respaldo_xml_config.cs" />
+    <Compile Include="validarDatosEmisor.cs" />
+    <Compile Include="frmPagoVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidaDigito.cs" />
+    <Compile Include="TipoVO.cs" />
+    <Compile Include="MedioPago.cs" />
+    <Compile Include="Impuestos.cs" />
+    <Compile Include="frmProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanzaInformeInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimeDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGarzon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoletaFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevolucionVO.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="BoletaFiscal.cs" />
+    <Compile Include="UnidadMedida.cs" />
+    <Compile Include="Traspaso.cs" />
+    <Compile Include="OrdenAtencionVO.cs" />
+    <Compile Include="ListaPrecioVO.cs" />
+    <Compile Include="frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMuestraCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanzadorInformesVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfoPc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDevolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlFiscal.cs" />
+    <Compile Include="ComunaVO.cs" />
+    <Compile Include="PermisoInforme.cs" />
+    <Compile Include="OrdenCompra.cs" />
+    <Compile Include="frmVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRespaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpciones2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedioPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenedorDeProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImpuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClienteMismoRut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaExenta.cs" />
+    <Compile Include="Consultas.cs" />
+    <Compile Include="CategoriaVO.cs" />
+    <Compile Include="UsuarioVO.cs" />
+    <Compile Include="TraspasoVO.cs" />
+    <Compile Include="Servicio.cs" />
+    <Compile Include="OpcionesDocumentosVO.cs" />
+    <Compile Include="Guia.cs" />
+    <Compile Include="frmTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DtsReportes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlCaja.cs" />
+    <Compile Include="CajaVO.cs" />
+    <Compile Include="BodegaVO.cs" />
+    <Compile Include="ServicioVO.cs" />
+    <Compile Include="PagoVentaVO.cs" />
+    <Compile Include="NotaVenta.cs" />
+    <Compile Include="MedioPagoVO.cs" />
+    <Compile Include="InventarioGeneral.cs" />
+    <Compile Include="frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLicencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocumentoCompra.cs" />
+    <Compile Include="AtencionPreVenta.cs" />
+    <Compile Include="frmUnidadMedidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor.cs" />
+    <Compile Include="Producto.cs" />
+    <Compile Include="OrdenAtencion.cs" />
+    <Compile Include="OpcionesGenerales.cs" />
+    <Compile Include="frmTraspasoInterno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSubCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoPagosCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaDocumentosVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportarDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGuiaDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comanda.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="frmSeleccionaListaPreciocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleTraspaso.cs" />
+    <Compile Include="CreditoVO.cs" />
+    <Compile Include="ControlProducto.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="BotonVO.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="Periodo.cs" />
+    <Compile Include="NumeroaLetra.cs" />
+    <Compile Include="NotaCredito.cs" />
+    <Compile Include="MedioPagoFiscal.cs" />
+    <Compile Include="Kit.cs" />
+    <Compile Include="frmPermisoInforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedioPagoNOFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacturaGuias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacturaExenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAtencionPreventa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credito.cs" />
+    <Compile Include="TipoUsuario.cs" />
+    <Compile Include="RubroVO.cs" />
+    <Compile Include="PreCliente.cs" />
+    <Compile Include="frmPagosCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguracionBotones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devolucion.cs" />
+    <Compile Include="Correo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlProductoVO.cs" />
+    <Compile Include="ConexionVO.cs" />
+    <Compile Include="Comuna.cs" />
+    <Compile Include="ArmaKit.cs" />
+    <Compile Include="VendedorVO.cs" />
+    <Compile Include="Vendedor.cs" />
+    <Compile Include="PeriodoVO.cs" />
+    <Compile Include="ImpuestoVO.cs" />
+    <Compile Include="frmTipoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFcturaElectronica.cs" />
+    <Compile Include="frmBuscaDocumentosCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosVentaVO.cs" />
+    <Compile Include="frmVuelto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizadorReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeleccionDevolucionBoleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRubro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPeriodoContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevaBusquedaClienteProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloFacturacionFullpyme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCajaVO.cs" />
+    <Compile Include="Boton.cs" />
+    <Compile Include="Banco.cs" />
+    <Compile Include="ProductoVO.cs" />
+    <Compile Include="Licencia.cs" />
+    <Compile Include="frmNotaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControlCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArmaKit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factura.cs" />
+    <Compile Include="DetalleTipoUsuarioVO.cs" />
+    <Compile Include="ClienteVO.cs" />
+    <Compile Include="CentroCostoVO.cs" />
+    <Compile Include="VentaGeneral.cs" />
+    <Compile Include="Tecnico.cs" />
+    <Compile Include="PagoVenta.cs" />
+    <Compile Include="Letra.cs" />
+    <Compile Include="frmOrdenTrabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenedorBodegaCajaListaOtros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanzadorInformesCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImpresoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAtencionRestaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosDevolucionVO.cs" />
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Ciudad.cs" />
+    <Compile Include="Calculos.cs" />
+    <Compile Include="BodegaCajaListaOtros.cs" />
+    <Compile Include="Venta.cs" />
+    <Compile Include="Rubro.cs" />
+    <Compile Include="LicenciaVO.cs" />
+    <Compile Include="frmConexionUnaEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculosConexion.cs" />
+    <Compile Include="TipoUsuarioVO.cs" />
+    <Compile Include="PagoCompra.cs" />
+    <Compile Include="OrdenTrabajo.cs" />
+    <Compile Include="LeeXml.cs" />
+    <Compile Include="Garzon.cs" />
+    <Compile Include="frmOrdenAtencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaPreClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlertaSoporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuentaCorreo.cs" />
+    <Compile Include="CentroCosto.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="OpcionesGeneralesVO.cs" />
+    <Compile Include="frmTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotizacion.cs" />
+    <Compile Include="CiudadVO.cs" />
+    <Compile Include="UnidadMedidaVO.cs" />
+    <Compile Include="ProductoAuxiliar.cs" />
+    <Compile Include="MesaVO.cs" />
+    <Compile Include="Mesa.cs" />
+    <Compile Include="KitVO.cs" />
+    <Compile Include="InformeVO.cs" />
+    <Compile Include="frmModuloFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CargaMaestros.cs" />
+    <Compile Include="Promocion\Clases\PromocionVO.cs" />
+    <Compile Include="Promocion\Clases\DetallePromocionVO.cs" />
+    <Compile Include="Promocion\Clases\Promo.cs" />
+    <Compile Include="Promocion\Formularios\frmPromocion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lotes\LotesDetalleVO.cs" />
+    <Compile Include="Lotes\Lote.cs" />
+    <Compile Include="Lotes\frmLoteCompraVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lotes\LoteVO.cs" />
+    <Compile Include="FacturaElectronica\frmEnviosSII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmNotaDebitoElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmIntercambioDeInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmIngresoLibroCompraSetPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmVisualizaPDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmEmisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmOpcionesLocalesFacturaElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmIntercambioDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmVisualizaWebPDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmNotaCreditoElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmCaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmBoletaElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmGuiaDespachoElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmFacturaExentaElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmFacturaElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Formularios\frmGeneraodrDeEnvios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaElectronica\Clases\TipoDocumentoVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\Emisor.cs" />
+    <Compile Include="FacturaElectronica\Clases\ENotaDebito.cs" />
+    <Compile Include="FacturaElectronica\Clases\csComprobarFirma.cs" />
+    <Compile Include="FacturaElectronica\Clases\EFacturaExenta.cs" />
+    <Compile Include="FacturaElectronica\Clases\Folios.cs" />
+    <Compile Include="FacturaElectronica\Clases\GeneraEnvios.cs" />
+    <Compile Include="FacturaElectronica\Clases\ENotaCredito.cs" />
+    <Compile Include="FacturaElectronica\Clases\FolioVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\EmisorVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\CargaMaestrosElectronica.cs" />
+    <Compile Include="FacturaElectronica\Clases\CafVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\EGuia.cs" />
+    <Compile Include="FacturaElectronica\Clases\csRespuestaVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\EBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\csCreaPDF.cs" />
+    <Compile Include="FacturaElectronica\Clases\ReferenicaVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\EFactura.cs" />
+    <Compile Include="FacturaElectronica\Clases\csRecepcionEnvioDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\AuxiliarVO.cs" />
+    <Compile Include="FacturaElectronica\Clases\Caf.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csResultadoDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csRecepcionDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csDocumentoRecibo.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csGeneraXMLRespuesta.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csReciboMercaderia.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csResultado.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csRespuestaResultadoDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csRecepcionEnvio.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csRespuestaDte.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csRecibo.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\csCaratulaRespuesta.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\TotalesPeriodo.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csTotOtrosImp.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csResumenPeriodo.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csDetalleLibroBoletas.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csEnvioLibroBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csCaratula.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csTotIVANoRec.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csResumenPeriodoBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csTotalesPeriodoBoletas.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csGeneraXMLlibroCompraVenta.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csEnvioLibro.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csTotTraslado.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csLibroBoletas.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csDetalleLibroGuias.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csLibroGuias.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csEnvioLibroGuia.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csGeneraXMLLibroBoletas.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csTotalesPeriodoGuias.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csOtrosImp.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csLibroCompraVenta.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csTotalesServicio.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csGeneraXMLLibroGuias.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csDetalleLibro.cs" />
+    <Compile Include="FacturaElectronica\Clases\LibroVentaCompra\csIVANoRec.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\RespuestaConsultaEstadoDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\Token.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\RespuestaConsultaEnvioDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\ConsultaEstadoDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\RespuestaSemilla.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\ConsultaEnvioDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\RespuestaEnvioSII.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\Upload.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\RespuestaToken.cs" />
+    <Compile Include="FacturaElectronica\Clases\EnviosSII\Semilla.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csImpuestos.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csCdgItem.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csIdDoc.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csTotales.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csDTE.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csDocumento.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csDscRcgGlobal.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csDD.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csTED.cs" />
+    <Compile Include="FacturaElectronica\Clases\RespuestaEnviosDte\GeneradorXMLBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csEncabezado.cs" />
+    <Compile Include="FacturaElectronica\Clases\GeneradorXML.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csReceptor.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csDetalle.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csReferencia.cs" />
+    <Compile Include="FacturaElectronica\Clases\CreaXml\csEmisor.cs" />
+    <Compile Include="FacturaElectronica\Clases\ConsumoFoliosBoletas\csCaratulaConsumoFolio.cs" />
+    <Compile Include="FacturaElectronica\Clases\ConsumoFoliosBoletas\csRangoUtilizadoConsumoBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\ConsumoFoliosBoletas\csGeneraXMLreporteConsumoFolios.cs" />
+    <Compile Include="FacturaElectronica\Clases\ConsumoFoliosBoletas\csReporteConsumoFolios.cs" />
+    <Compile Include="FacturaElectronica\Clases\ConsumoFoliosBoletas\csEnvioConsumoBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\ConsumoFoliosBoletas\csResumenConsumoBoleta.cs" />
+    <Compile Include="FacturaElectronica\Clases\PDF417\TimbrePDF417.cs" />
+    <Compile Include="FacturaElectronica\Clases\PDF417\ImagenPdf417.cs" />
+    <Compile Include="FacturaElectronica\Clases\PDF417\CodigoPDF417.cs" />
+    <Compile Include="FacturaElectronica\Clases\PDF417\ImagenPdf417VO.cs" />
+    <Compile Include="FacturaElectronica\Clases\FirmaTimbreXML\FuncionesComunes.cs" />
+    <Compile Include="Reportes\OrdenCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedOrdenCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ComprobantePagoFactura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedComprobantePagoFactura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Factura003.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedFactura003.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Cotizacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedCotizacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Factura002.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedFactura002.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Factura001.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedFactura001.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ComprobantePagoBoleta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedComprobantePagoBoleta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\NotaCredito.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedNotaCredito.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ComprobantePagoCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedComprobantePagoCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Factura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedFactura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Boleta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedBoleta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Compra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Guia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedGuia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Ticket.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CachedTicket.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InternoAptusoft\Ofertas\OfertaNegocio.cs" />
+    <Compile Include="InternoAptusoft\Ofertas\Oferta.cs" />
+    <Compile Include="InternoAptusoft\Ofertas\frmOferta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternoAptusoft\Ofertas\OfertaVO.cs" />
+    <Compile Include="InternoAptusoft\Contratacion\ContratoVO.cs" />
+    <Compile Include="InternoAptusoft\Contratacion\frmContratacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternoAptusoft\Contratacion\Contrato.cs" />
+    <Compile Include="InternoAptusoft\Contratacion\ContratoNegocio.cs" />
+    <Compile Include="InternoAptusoft\Ciclos\Ciclo.cs" />
+    <Compile Include="InternoAptusoft\Ciclos\CicloNegocio.cs" />
+    <Compile Include="InternoAptusoft\Ciclos\CicloVO.cs" />
+    <Compile Include="InternoAptusoft\Facturacion\FacturacionNegocio.cs" />
+    <Compile Include="InternoAptusoft\Facturacion\FacturacionVO.cs" />
+    <Compile Include="InternoAptusoft\Facturacion\FacturacionDato.cs" />
+    <Compile Include="InternoAptusoft\Email\Email.cs" />
+    <Compile Include="InternoAptusoft\Email\EmailVO.cs" />
+    <Compile Include="cl\sii\maullin\semilla\CrSeedService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\maullin\semilla\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getSeedCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getSeedCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\semilla\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\token\GetTokenFromSeedService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\maullin\token\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\token\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\token\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\token\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\token\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\token\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\token\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\token\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\token\getTokenCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\token\getTokenCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consulta\QueryEstUpService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\maullin\consulta\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getEstUpCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consulta\getEstUpCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\QueryEstDteService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\maullin\consultaDTE\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getEstDteCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getEstDteCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\maullin\consultaDTE\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\QueryEstDteService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\palena\consultaDTE\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getEstDteCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consultaDTE\getEstDteCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consulta\QueryEstUpService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\palena\consulta\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consulta\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consulta\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consulta\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consulta\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consulta\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consulta\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consulta\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\consulta\getEstUpCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\consulta\getEstUpCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\token\GetTokenFromSeedService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\palena\token\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\token\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\token\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\token\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\token\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\token\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\token\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\token\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\token\getTokenCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\token\getTokenCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\semilla\CrSeedService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cl\sii\palena\semilla\getStateCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\semilla\getStateCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\semilla\getSeedCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\semilla\getSeedCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\semilla\getVersionMayorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\semilla\getVersionMayorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\semilla\getVersionMenorCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\semilla\getVersionMenorCompletedEventArgs.cs" />
+    <Compile Include="cl\sii\palena\semilla\getVersionPatchCompletedEventHandler.cs" />
+    <Compile Include="cl\sii\palena\semilla\getVersionPatchCompletedEventArgs.cs" />
+    <Compile Include="TomaInventario\Formularios\frmTomaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TomaInventario\Clases\TomaInventarioVO.cs" />
+    <Compile Include="TomaInventario\Clases\TomaInventarioClass.cs" />
+    <Compile Include="DtsReportesTableAdapters\BoletaTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\FacturaTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\FacturaPagosVentasTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\TicketTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\GuiaTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\NotaCreditoTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\CotizacionTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\CompraTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\CompraPagosComprasTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\OrdenCompraTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\FacturasTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\ImagenesTableAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DtsReportesTableAdapters\TableAdapterManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="VoIngresoManuales.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Correo.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmBoletaElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmCaf.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmEmisor.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmFacturaElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmFacturaElectronicaFrigo.resx">
+      <DependentUpon>frmFacturaElectronicaFrigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmFacturaExentaElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmGeneraodrDeEnvios.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmGuiaDespachoElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmIngresoLibroCompraSetPrueba.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmIntercambioDeInformacion.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmIntercambioDetalle.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmNotaCreditoElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmNotaDebitoElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmOpcionesLocalesFacturaElectronica.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmVisualizaPDF.resx" />
+    <EmbeddedResource Include="FacturaElectronica\Formularios\frmVisualizaWebPDF.resx" />
+    <EmbeddedResource Include="FacturaElectronica\frmEnviosSII.resx" />
+    <EmbeddedResource Include="frmAlertaSoporte.resx" />
+    <EmbeddedResource Include="frmArmaKit.resx" />
+    <EmbeddedResource Include="frmAtencionPreventa.resx" />
+    <EmbeddedResource Include="frmAtencionRestaurant.resx" />
+    <EmbeddedResource Include="frmBanco.resx" />
+    <EmbeddedResource Include="frmBoleta.resx" />
+    <EmbeddedResource Include="frmBoletaFiscal.resx" />
+    <EmbeddedResource Include="frmBuscaClientes.resx" />
+    <EmbeddedResource Include="frmBuscaDocumentosCompra.resx" />
+    <EmbeddedResource Include="frmBuscaPreClientes.resx" />
+    <EmbeddedResource Include="frmBuscaProductos.resx" />
+    <EmbeddedResource Include="frmBuscaProveedor.resx" />
+    <EmbeddedResource Include="frmCategorias.resx" />
+    <EmbeddedResource Include="frmCentroCosto.resx" />
+    <EmbeddedResource Include="frmClienteMismoRut.resx" />
+    <EmbeddedResource Include="frmClientes.resx" />
+    <EmbeddedResource Include="frmCodeBar.resx">
+      <DependentUpon>frmCodeBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComanda.resx" />
+    <EmbeddedResource Include="frmConexion.resx" />
+    <EmbeddedResource Include="frmConexionUnaEmpresa.resx" />
+    <EmbeddedResource Include="frmConfiguracionBotones.resx" />
+    <EmbeddedResource Include="frmConfiguracionCorreo.resx">
+      <DependentUpon>frmConfiguracionCorreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfSync.resx">
+      <DependentUpon>FrmConfSync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControlCaja.resx" />
+    <EmbeddedResource Include="frmCorreo.resx">
+      <DependentUpon>frmCorreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCotizacion.resx" />
+    <EmbeddedResource Include="frmDevolucion.resx" />
+    <EmbeddedResource Include="frmFactura.resx" />
+    <EmbeddedResource Include="frmFacturaExenta.resx" />
+    <EmbeddedResource Include="frmFacturaGuias.resx" />
+    <EmbeddedResource Include="frmGarzon.resx" />
+    <EmbeddedResource Include="frmGuiaDespacho.resx" />
+    <EmbeddedResource Include="frmImportarDocumento.resx" />
+    <EmbeddedResource Include="frmImpresoras.resx" />
+    <EmbeddedResource Include="frmImprimeDocumento.resx" />
+    <EmbeddedResource Include="frmImpuestos.resx" />
+    <EmbeddedResource Include="frmInfoPc.resx" />
+    <EmbeddedResource Include="frmIngresoBoletasManuales.resx">
+      <DependentUpon>frmIngresoBoletasManuales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresoCompra.resx" />
+    <EmbeddedResource Include="frmKit.resx" />
+    <EmbeddedResource Include="frmLanzadorInformesCompras.resx" />
+    <EmbeddedResource Include="frmLanzadorInformesVenta.resx" />
+    <EmbeddedResource Include="frmLanzaInformeInventario.resx" />
+    <EmbeddedResource Include="frmLicencia.resx" />
+    <EmbeddedResource Include="frmListaDocumentosVenta.resx" />
+    <EmbeddedResource Include="frmListadoPagosCompra.resx" />
+    <EmbeddedResource Include="frmLogin.resx" />
+    <EmbeddedResource Include="frmMantenedorBodegaCajaListaOtros.resx" />
+    <EmbeddedResource Include="frmMantenedorDeProductos.resx" />
+    <EmbeddedResource Include="frmMedioPago.resx" />
+    <EmbeddedResource Include="frmMedioPagoNOFiscal.resx" />
+    <EmbeddedResource Include="frmMenuPrincipal.resx" />
+    <EmbeddedResource Include="frmModuloFacturacionFullpyme.resx" />
+    <EmbeddedResource Include="frmModuloFiscal.resx" />
+    <EmbeddedResource Include="frmMuestraCredito.resx" />
+    <EmbeddedResource Include="frmNotaCredito.resx" />
+    <EmbeddedResource Include="frmNotaVenta.resx" />
+    <EmbeddedResource Include="frmNuevaBusquedaClienteProveedor.resx" />
+    <EmbeddedResource Include="frmOdepa.resx">
+      <DependentUpon>frmOdepa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpciones.resx" />
+    <EmbeddedResource Include="frmOpciones2.resx" />
+    <EmbeddedResource Include="frmOrdenAtencion.resx" />
+    <EmbeddedResource Include="frmOrdenCompra.resx" />
+    <EmbeddedResource Include="frmOrdenTrabajo.resx" />
+    <EmbeddedResource Include="frmOt.resx" />
+    <EmbeddedResource Include="frmPagosCompras.resx" />
+    <EmbeddedResource Include="frmPagoVenta.resx">
+      <DependentUpon>frmPagoVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassWord.resx">
+      <DependentUpon>frmPassWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPeriodoContable.resx" />
+    <EmbeddedResource Include="frmPermisoInforme.resx" />
+    <EmbeddedResource Include="frmPreCliente.resx" />
+    <EmbeddedResource Include="frmPreVentas.resx" />
+    <EmbeddedResource Include="frmProductos.resx" />
+    <EmbeddedResource Include="frmProveedor.resx" />
+    <EmbeddedResource Include="frmRespaldo.resx" />
+    <EmbeddedResource Include="frmRubro.resx" />
+    <EmbeddedResource Include="frmSeleccionaListaPreciocs.resx" />
+    <EmbeddedResource Include="frmSeleccionDevolucionBoleta.resx" />
+    <EmbeddedResource Include="frmServicio.resx" />
+    <EmbeddedResource Include="frmSincronizadorBoletas.resx">
+      <DependentUpon>frmSincronizadorBoletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSubCategorias.resx" />
+    <EmbeddedResource Include="frmTecnico.resx" />
+    <EmbeddedResource Include="frmTicket.resx" />
+    <EmbeddedResource Include="frmTipoUsuario.resx" />
+    <EmbeddedResource Include="frmTraspasoInterno.resx" />
+    <EmbeddedResource Include="frmUnidadMedidas.resx" />
+    <EmbeddedResource Include="frmUsuario.resx" />
+    <EmbeddedResource Include="frmVendedor.resx" />
+    <EmbeddedResource Include="frmVisualizadorReportes.resx" />
+    <EmbeddedResource Include="frmVuelto.resx" />
+    <EmbeddedResource Include="InternoAptusoft\Contratacion\frmContratacion.resx" />
+    <EmbeddedResource Include="InternoAptusoft\Ofertas\frmOferta.resx" />
+    <EmbeddedResource Include="Lotes\frmLoteCompraVenta.resx" />
+    <EmbeddedResource Include="Maquinaria\frmEstado.resx">
+      <DependentUpon>frmEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquinaria\frmMaquinaria.resx">
+      <DependentUpon>frmMaquinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Promocion\Formularios\frmPromocion.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Boleta.rpt" />
+    <EmbeddedResource Include="Reportes\Compra.rpt" />
+    <EmbeddedResource Include="Reportes\ComprobantePagoBoleta.rpt" />
+    <EmbeddedResource Include="Reportes\ComprobantePagoCompra.rpt" />
+    <EmbeddedResource Include="Reportes\ComprobantePagoFactura.rpt" />
+    <EmbeddedResource Include="Reportes\Cotizacion.rpt" />
+    <EmbeddedResource Include="Reportes\Factura.rpt" />
+    <EmbeddedResource Include="Reportes\Factura001.rpt" />
+    <EmbeddedResource Include="Reportes\Factura002.rpt" />
+    <EmbeddedResource Include="Reportes\Factura003.rpt" />
+    <EmbeddedResource Include="Reportes\Guia.rpt" />
+    <EmbeddedResource Include="Reportes\NotaCredito.rpt" />
+    <EmbeddedResource Include="Reportes\OrdenCompra.rpt" />
+    <EmbeddedResource Include="Reportes\Ticket.rpt" />
+    <EmbeddedResource Include="TomaInventario\Formularios\frmTomaInventario.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="%24this.Icon.ico" />
+    <Content Include="Logo_64x64.ico" />
+    <Content Include="Resources\AptuSoft.png" />
+    <None Include="Resources\vent%40s2.png" />
+    <None Include="Resources\vent%40s1.png" />
+    <None Include="Resources\aptusoftpanel1.png" />
+    <None Include="Resources\Vender1.png" />
+    <None Include="Resources\Usuarios1.png" />
+    <None Include="Resources\UnidadesMedida1.png" />
+    <None Include="Resources\TiposUsuario1.png" />
+    <None Include="Resources\Ticket1.png" />
+    <None Include="Resources\Proveedores1.png" />
+    <None Include="Resources\Productos1.png" />
+    <None Include="Resources\PagosVentas1.png" />
+    <None Include="Resources\PagosCompras1.png" />
+    <None Include="Resources\OrdenesCompra1.png" />
+    <None Include="Resources\Parametros1.png" />
+    <None Include="Resources\Opciones1.png" />
+    <None Include="Resources\NotaVenta1.png" />
+    <None Include="Resources\Inventario1.png" />
+    <None Include="Resources\IngresoCompras1.png" />
+    <None Include="Resources\Impresoras1.png" />
+    <None Include="Resources\GuiaDespacho1.png" />
+    <None Include="Resources\Facturas1.png" />
+    <None Include="Resources\Envios1.png" />
+    <None Include="Resources\NotaDebito1.png" />
+    <None Include="Resources\NotaCredito1.png" />
+    <None Include="Resources\eGuiasDespacho1.png" />
+    <None Include="Resources\eFacturaExenta1.png" />
+    <None Include="Resources\Factur%40s1.png" />
+    <None Include="Resources\eBoletas1.png" />
+    <None Include="Resources\Cotizaciones1.png" />
+    <None Include="Resources\Comprar1.png" />
+    <None Include="Resources\Clientes1.png" />
+    <None Include="Resources\Categorias1.png" />
+    <None Include="Resources\CAF1.png" />
+    <None Include="Resources\BoletaFiscal1.png" />
+    <None Include="Resources\Boletas1.png" />
+    <None Include="Resources\Image1.png" />
+    <None Include="Resources\AptuSoft2.png" />
+    <None Include="Resources\AptuSoftPanel.png" />
+    <None Include="Resources\Envios.png" />
+    <None Include="Resources\CAF.png" />
+    <None Include="Resources\eFacturaExenta.png" />
+    <None Include="Resources\eGuiasDespacho.png" />
+    <None Include="Resources\GuiasDespacho.png" />
+    <None Include="Resources\eBoletas.png" />
+    <None Include="Resources\NotaDebito.png" />
+    <None Include="Resources\NotaCredito.png" />
+    <None Include="Resources\Factur%40s.png" />
+    <None Include="Resources\BoletaFiscal.png" />
+    <None Include="Resources\Impresoras.png" />
+    <None Include="Resources\Usuarios.png" />
+    <None Include="Resources\Parametros.png" />
+    <None Include="Resources\TiposUsuario.png" />
+    <None Include="Resources\Categorias.png" />
+    <None Include="Resources\Productos.png" />
+    <None Include="Resources\NotaVenta.png" />
+    <None Include="Resources\UnidadesMedida.png" />
+    <None Include="Resources\IngresoCompras.png" />
+    <None Include="Resources\OrdenesCompra.png" />
+    <None Include="Resources\Cotizaciones.png" />
+    <None Include="Resources\GuiaDespacho.png" />
+    <None Include="Resources\Proveedores.png" />
+    <None Include="Resources\Clientes.png" />
+    <None Include="Resources\Ticket.png" />
+    <None Include="Resources\Facturas.png" />
+    <None Include="Resources\PagosCompras.png" />
+    <None Include="Resources\PagosVentas.png" />
+    <None Include="Resources\Boletas.png" />
+    <None Include="Resources\vent%40s.png" />
+    <None Include="Resources\Comprar.png" />
+    <None Include="Resources\Opciones.png" />
+    <None Include="Resources\Vender.png" />
+    <None Include="Resources\Inventario.png" />
+    <None Include="Resources\prueba2.png" />
+    <None Include="Resources\prueba.png" />
+    <None Include="Resources\Logo_64x64_2.ico" />
+    <None Include="Resources\Logo_64x64.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\panel1.bmp" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\btnBoletaFiscal.BackgroundImage.png" />
+    <None Include="Resources\panel1.BackgroundImage.png" />
+    <None Include="Resources\panel1.BackgroundImage.jpg" />
+    <None Include="Resources\btnVender.BackgroundImage.png" />
+    <None Include="Resources\btnUsuario.BackgroundImage.png" />
+    <None Include="Resources\btnUnidMedidas.BackgroundImage.png" />
+    <None Include="Resources\btnTipoUsuario.BackgroundImage.png" />
+    <None Include="Resources\btnTicket.BackgroundImage.png" />
+    <None Include="Resources\btnProveedor.BackgroundImage.png" />
+    <None Include="Resources\btnProducto.BackgroundImage.png" />
+    <None Include="Resources\btnPagosVentas.BackgroundImage.png" />
+    <None Include="Resources\btnPagoCompras.BackgroundImage.png" />
+    <None Include="Resources\btnOrdenCompra.BackgroundImage.png" />
+    <None Include="Resources\btnOpciones.BackgroundImage.png" />
+    <None Include="Resources\btnOpcion.BackgroundImage.png" />
+    <None Include="Resources\btnNotaVenta.BackgroundImage.png" />
+    <None Include="Resources\btnInventario.BackgroundImage.png" />
+    <None Include="Resources\btnIngresoCompra.BackgroundImage.png" />
+    <None Include="Resources\btnImpresoras.BackgroundImage.png" />
+    <None Include="Resources\btnGuia.BackgroundImage.png" />
+    <None Include="Resources\btnFactura.BackgroundImage.png" />
+    <None Include="Resources\btnCotizacion.BackgroundImage.png" />
+    <None Include="Resources\btnComprar.BackgroundImage.png" />
+    <None Include="Resources\btnCliente.BackgroundImage.png" />
+    <None Include="Resources\btnCategorias.BackgroundImage.png" />
+    <None Include="Resources\btnBoleta.BackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

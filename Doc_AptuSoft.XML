@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AptuSoft</name>
+    </assembly>
+    <members>
+        <member name="F:Aptusoft.FacturaElectronica.Formularios.frmInger.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Aptusoft.FacturaElectronica.Formularios.frmInger.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Aptusoft.FacturaElectronica.Formularios.frmInger.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Aptusoft.FrmArriendoMaquinas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Aptusoft.FrmArriendoMaquinas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Aptusoft.FrmArriendoMaquinas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Aptusoft.frmCodeBar.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Aptusoft.frmCodeBar.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Aptusoft.frmCodeBar.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Aptusoft.frmOdepa.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Aptusoft.frmOdepa.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Aptusoft.frmOdepa.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
