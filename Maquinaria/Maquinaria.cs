@@ -39,7 +39,25 @@ namespace Aptusoft.Maquinaria
             command.Parameters.AddWithValue("@bod_8", (object)maVO.bod_8);
             command.Parameters.AddWithValue("@bod_9", (object)maVO.bod_9);
             command.Parameters.AddWithValue("@bod_10", (object)maVO.bod_10);
-            ((DbCommand)command).ExecuteNonQuery();
+
+            if (conn.ConexionMySql.State != ConnectionState.Open)
+            {
+                int con = 0;
+                do
+                {
+                    con++;
+                    try
+                    {
+                        conn.ConexionMySql.Open();
+                        ((DbCommand)command).ExecuteNonQuery();
+                    }
+                    catch { conn.ConexionMySql.Close(); }
+                } while (conn.ConexionMySql.State != ConnectionState.Open && con < 10);
+            }
+            else
+            {
+                ((DbCommand)command).ExecuteNonQuery();
+            }
         }
 
         //public void agregaImagenProducto(MaquinariaVO maVO)
@@ -97,7 +115,26 @@ namespace Aptusoft.Maquinaria
             command.Parameters.AddWithValue("@bod_8", (object)maVO.bod_8);
             command.Parameters.AddWithValue("@bod_9", (object)maVO.bod_9);
             command.Parameters.AddWithValue("@bod_10", (object)maVO.bod_10);
-            ((DbCommand)command).ExecuteNonQuery();
+
+            if (conn.ConexionMySql.State != ConnectionState.Open)
+            {
+                int con = 0;
+                do
+                {
+                    con++;
+                    try
+                    {
+                        conn.ConexionMySql.Open();
+                        ((DbCommand)command).ExecuteNonQuery();
+                    }
+                    catch { conn.ConexionMySql.Close(); }
+                } while (conn.ConexionMySql.State != ConnectionState.Open && con < 10);
+            }
+            else
+            {
+                ((DbCommand)command).ExecuteNonQuery();
+            }
+
             //if (maVO.RutaImg1.Length <= 0 && maVO.RutaImg2.Length <= 0 && maVO.RutaImg3.Length <= 0)
             //    return;
             //this.modificaImagenProducto(maVO);
@@ -174,7 +211,24 @@ namespace Aptusoft.Maquinaria
             MySqlCommand command = this.conn.ConexionMySql.CreateCommand();
             ((DbCommand)command).CommandText = "DELETE FROM maquinaria WHERE codigo = @codigo";
             command.Parameters.AddWithValue("@codigo", (object)cod);
-            ((DbCommand)command).ExecuteNonQuery();
+            if (conn.ConexionMySql.State != ConnectionState.Open)
+            {
+                int con = 0;
+                do
+                {
+                    con++;
+                    try
+                    {
+                        conn.ConexionMySql.Open();
+                        ((DbCommand)command).ExecuteNonQuery();
+                    }
+                    catch { conn.ConexionMySql.Close(); }
+                } while (conn.ConexionMySql.State != ConnectionState.Open && con < 10);
+            }
+            else
+            {
+                ((DbCommand)command).ExecuteNonQuery();
+            }
             //((DbCommand)command).CommandText = "DELETE FROM imagenes WHERE codigoProducto = @CodigoImg";
             //command.Parameters.AddWithValue("@CodigoImg", (object)cod);
             //((DbCommand)command).ExecuteNonQuery();

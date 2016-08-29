@@ -127,7 +127,26 @@ namespace Aptusoft.FacturaElectronica.Clases
         command.Parameters.AddWithValue("@codImpuesto3", (object) veOB.CodImpuesto3);
         command.Parameters.AddWithValue("@codImpuesto4", (object) veOB.CodImpuesto4);
         command.Parameters.AddWithValue("@codImpuesto5", (object) veOB.CodImpuesto5);
-        ((DbCommand) command).ExecuteNonQuery();
+        if (conexion.ConexionMySql.State != ConnectionState.Open)
+        {
+            int con = 0;
+            do
+            {
+                con++;
+                try
+                {
+                    conexion.ConexionMySql.Open();
+                    ((DbCommand)command).ExecuteNonQuery();
+                    return "Factura Ingresada";
+                }
+                catch { conexion.ConexionMySql.Close(); }
+            } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+        }
+        else
+        {
+            ((DbCommand)command).ExecuteNonQuery();
+            
+        }
         return "Factura Ingresada";
       }
       catch (Exception ex)
@@ -200,7 +219,25 @@ namespace Aptusoft.FacturaElectronica.Clases
         command.Parameters.AddWithValue("@usuario", (object) veVO.Usuario);
         command.Parameters.AddWithValue("@stockQueda", (object) veVO.StockQueda);
         command.Parameters.AddWithValue("@exento", (veVO.Exento ? 1 : 0));
-        ((DbCommand) command).ExecuteNonQuery();
+        if (conexion.ConexionMySql.State != ConnectionState.Open)
+        {
+            int con = 0;
+            do
+            {
+                con++;
+                try
+                {
+                    conexion.ConexionMySql.Open();
+                    ((DbCommand)command).ExecuteNonQuery();
+                }
+                catch { conexion.ConexionMySql.Close(); }
+            } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+        }
+        else
+        {
+            ((DbCommand)command).ExecuteNonQuery();
+
+        }
         return true;
       }
       catch (Exception ex)
@@ -233,7 +270,25 @@ namespace Aptusoft.FacturaElectronica.Clases
       command.Parameters.AddWithValue("@tipoAccion", (object) refe.TipoAccion);
       command.Parameters.AddWithValue("@tipoAccionNombre", (object) refe.TipoAccionNombre);
       command.Parameters.AddWithValue("@razonReferencia", (object) refe.RazonReferencia);
-      ((DbCommand) command).ExecuteNonQuery();
+      if (conexion.ConexionMySql.State != ConnectionState.Open)
+      {
+          int con = 0;
+          do
+          {
+              con++;
+              try
+              {
+                  conexion.ConexionMySql.Open();
+                  ((DbCommand)command).ExecuteNonQuery();
+              }
+              catch { conexion.ConexionMySql.Close(); }
+          } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+      }
+      else
+      {
+          ((DbCommand)command).ExecuteNonQuery();
+
+      }
     }
 
     public List<ReferenicaVO> buscaReferenciaIDFactura(int idFactura)
@@ -242,23 +297,58 @@ namespace Aptusoft.FacturaElectronica.Clases
       MySqlCommand command = this.conexion.ConexionMySql.CreateCommand();
       ((DbCommand) command).CommandText = "SELECT idReferencia, idFactura,\r\n                                                            folioFactura,\r\n                                                            tipoDocumento,\r\n                                                            tipoDocumentoNombre,\r\n                                                            folioDocumentoReferencia,\r\n                                                            fechaDocumentoReferencia,\r\n                                                            tipoAccion,\r\n                                                            tipoAccionNombre,\r\n                                                            razonReferencia\r\n                                                    FROM electronica_factura_referencias WHERE idFactura = @idFactura ORDER BY idReferencia asc";
       command.Parameters.AddWithValue("@idFactura", (object) idFactura);
-      MySqlDataReader mySqlDataReader = command.ExecuteReader();
-      while (((DbDataReader) mySqlDataReader).Read())
-        list.Add(new ReferenicaVO()
-        {
-          IdReferencia = Convert.ToInt32(((DbDataReader) mySqlDataReader)["idReferencia"].ToString()),
-          idDocumento = Convert.ToInt32(((DbDataReader) mySqlDataReader)["idFactura"].ToString()),
-          FolioDocumento = Convert.ToInt32(((DbDataReader) mySqlDataReader)["folioFactura"].ToString()),
-          TipoDocumento = Convert.ToInt32(((DbDataReader) mySqlDataReader)["tipoDocumento"].ToString()),
-          TipoDocumentoNombre = ((DbDataReader) mySqlDataReader)["tipoDocumentoNombre"].ToString(),
-          FolioDocumentoReferencia = ((DbDataReader) mySqlDataReader)["folioDocumentoReferencia"].ToString(),
-          FechaDocumentoReferencia = Convert.ToDateTime(((DbDataReader) mySqlDataReader)["fechaDocumentoReferencia"]),
-          TipoAccion = Convert.ToInt32(((DbDataReader) mySqlDataReader)["tipoAccion"].ToString()),
-          TipoAccionNombre = ((DbDataReader) mySqlDataReader)["tipoAccionNombre"].ToString(),
-          RazonReferencia = ((DbDataReader) mySqlDataReader)["razonReferencia"].ToString()
-        });
-      ((DbDataReader) mySqlDataReader).Close();
+      if (conexion.ConexionMySql.State != ConnectionState.Open)
+      {
+          int con = 0;
+          do
+          {
+              con++;
+              try
+              {
+                  conexion.ConexionMySql.Open();
+                  MySqlDataReader mySqlDataReader = command.ExecuteReader();
+                  while (((DbDataReader)mySqlDataReader).Read())
+                      list.Add(new ReferenicaVO()
+                      {
+                          IdReferencia = Convert.ToInt32(((DbDataReader)mySqlDataReader)["idReferencia"].ToString()),
+                          idDocumento = Convert.ToInt32(((DbDataReader)mySqlDataReader)["idFactura"].ToString()),
+                          FolioDocumento = Convert.ToInt32(((DbDataReader)mySqlDataReader)["folioFactura"].ToString()),
+                          TipoDocumento = Convert.ToInt32(((DbDataReader)mySqlDataReader)["tipoDocumento"].ToString()),
+                          TipoDocumentoNombre = ((DbDataReader)mySqlDataReader)["tipoDocumentoNombre"].ToString(),
+                          FolioDocumentoReferencia = ((DbDataReader)mySqlDataReader)["folioDocumentoReferencia"].ToString(),
+                          FechaDocumentoReferencia = Convert.ToDateTime(((DbDataReader)mySqlDataReader)["fechaDocumentoReferencia"]),
+                          TipoAccion = Convert.ToInt32(((DbDataReader)mySqlDataReader)["tipoAccion"].ToString()),
+                          TipoAccionNombre = ((DbDataReader)mySqlDataReader)["tipoAccionNombre"].ToString(),
+                          RazonReferencia = ((DbDataReader)mySqlDataReader)["razonReferencia"].ToString()
+                      });
+                  ((DbDataReader)mySqlDataReader).Close();
+                  return list;
+              }
+              catch { conexion.ConexionMySql.Close(); }
+          } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+      }
+      else
+      {
+          MySqlDataReader mySqlDataReader = command.ExecuteReader();
+          while (((DbDataReader)mySqlDataReader).Read())
+              list.Add(new ReferenicaVO()
+              {
+                  IdReferencia = Convert.ToInt32(((DbDataReader)mySqlDataReader)["idReferencia"].ToString()),
+                  idDocumento = Convert.ToInt32(((DbDataReader)mySqlDataReader)["idFactura"].ToString()),
+                  FolioDocumento = Convert.ToInt32(((DbDataReader)mySqlDataReader)["folioFactura"].ToString()),
+                  TipoDocumento = Convert.ToInt32(((DbDataReader)mySqlDataReader)["tipoDocumento"].ToString()),
+                  TipoDocumentoNombre = ((DbDataReader)mySqlDataReader)["tipoDocumentoNombre"].ToString(),
+                  FolioDocumentoReferencia = ((DbDataReader)mySqlDataReader)["folioDocumentoReferencia"].ToString(),
+                  FechaDocumentoReferencia = Convert.ToDateTime(((DbDataReader)mySqlDataReader)["fechaDocumentoReferencia"]),
+                  TipoAccion = Convert.ToInt32(((DbDataReader)mySqlDataReader)["tipoAccion"].ToString()),
+                  TipoAccionNombre = ((DbDataReader)mySqlDataReader)["tipoAccionNombre"].ToString(),
+                  RazonReferencia = ((DbDataReader)mySqlDataReader)["razonReferencia"].ToString()
+              });
+          ((DbDataReader)mySqlDataReader).Close();
+          return list;
+      }
       return list;
+      
     }
 
     public bool facturaExiste(int numFactura)
@@ -567,7 +657,25 @@ namespace Aptusoft.FacturaElectronica.Clases
       ((DbCommand) command).CommandText = "UPDATE productos SET " + str + " = " + str + " " + signo + " @stock WHERE Codigo=@codigo";
       command.Parameters.AddWithValue("@stock", (object) cantidad);
       command.Parameters.AddWithValue("@codigo", (object) codigo);
-      ((DbCommand) command).ExecuteNonQuery();
+      if (conexion.ConexionMySql.State != ConnectionState.Open)
+      {
+          int con = 0;
+          do
+          {
+              con++;
+              try
+              {
+                  conexion.ConexionMySql.Open();
+                  ((DbCommand)command).ExecuteNonQuery();
+              }
+              catch { conexion.ConexionMySql.Close(); }
+          } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+      }
+      else
+      {
+          ((DbCommand)command).ExecuteNonQuery();
+
+      }
     }
 
     public int numeroFactura(int caja)
@@ -683,7 +791,25 @@ namespace Aptusoft.FacturaElectronica.Clases
         command.Parameters.AddWithValue("@codImpuesto3", (object) veOB.CodImpuesto3);
         command.Parameters.AddWithValue("@codImpuesto4", (object) veOB.CodImpuesto4);
         command.Parameters.AddWithValue("@codImpuesto5", (object) veOB.CodImpuesto5);
-        ((DbCommand) command).ExecuteNonQuery();
+        if (conexion.ConexionMySql.State != ConnectionState.Open)
+        {
+            int con = 0;
+            do
+            {
+                con++;
+                try
+                {
+                    conexion.ConexionMySql.Open();
+                    ((DbCommand)command).ExecuteNonQuery();
+                }
+                catch { conexion.ConexionMySql.Close(); }
+            } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+        }
+        else
+        {
+            ((DbCommand)command).ExecuteNonQuery();
+
+        }
         foreach (DatosVentaVO datosVentaVo in this.buscaDetalleFacturaIDFactura(veOB.IdFactura))
         {
           new ControlProducto().registroDocumentoModifica(datosVentaVo, "FACTURA ELECTRONICA");
@@ -734,7 +860,25 @@ namespace Aptusoft.FacturaElectronica.Clases
         ((DbCommand) command).CommandText = "DELETE FROM electronica_detalle_factura WHERE idFacturaLinea=@idFactura AND folioFactura=@folioFactura";
         command.Parameters.AddWithValue("@idFactura", (object) veOB.IdFactura);
         command.Parameters.AddWithValue("@folioFactura", (object) veOB.Folio);
-        ((DbCommand) command).ExecuteNonQuery();
+        if (conexion.ConexionMySql.State != ConnectionState.Open)
+        {
+            int con = 0;
+            do
+            {
+                con++;
+                try
+                {
+                    conexion.ConexionMySql.Open();
+                    ((DbCommand)command).ExecuteNonQuery();
+                }
+                catch { conexion.ConexionMySql.Close(); }
+            } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+        }
+        else
+        {
+            ((DbCommand)command).ExecuteNonQuery();
+
+        }
         return true;
       }
       catch (Exception ex)
@@ -761,7 +905,27 @@ namespace Aptusoft.FacturaElectronica.Clases
       MySqlCommand command = this.conexion.ConexionMySql.CreateCommand();
       ((DbCommand) command).CommandText = "DELETE electronica_factura, electronica_detalle_factura FROM electronica_factura, electronica_detalle_factura WHERE electronica_factura.idFactura = @idFactura AND electronica_detalle_factura.idFacturaLinea=@idFactura";
       command.Parameters.AddWithValue("@idFactura", (object) idFactura);
-      return ((DbCommand) command).ExecuteNonQuery();
+      if (conexion.ConexionMySql.State != ConnectionState.Open)
+      {
+          int con = 0;
+          do
+          {
+              con++;
+              try
+              {
+                  conexion.ConexionMySql.Open();
+                  return ((DbCommand)command).ExecuteNonQuery();
+              }
+              catch { conexion.ConexionMySql.Close(); }
+          } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+          
+      }
+      else
+      {
+          return ((DbCommand)command).ExecuteNonQuery();
+
+      }
+      return ((DbCommand)command).ExecuteNonQuery();
     }
 
     public string anulaFactura(int idFactura, List<DatosVentaVO> lista)
@@ -769,7 +933,26 @@ namespace Aptusoft.FacturaElectronica.Clases
       MySqlCommand command = this.conexion.ConexionMySql.CreateCommand();
       ((DbCommand) command).CommandText = "UPDATE electronica_factura SET estadoDocumento = 'ANULADA', razonSocial= 'FACTURA ANULADA', rut='0', digito='0', subtotal='0', descuento='0', neto='0', iva='0',  total='0', impuesto1='0', impuesto2='0',impuesto3='0',impuesto4='0',impuesto5='0'  WHERE idFactura=@idFactura";
       command.Parameters.AddWithValue("@idFactura", (object) idFactura);
-      ((DbCommand) command).ExecuteNonQuery();
+      if (conexion.ConexionMySql.State != ConnectionState.Open)
+      {
+          int con = 0;
+          do
+          {
+              con++;
+              try
+              {
+                  conexion.ConexionMySql.Open();
+                  ((DbCommand)command).ExecuteNonQuery();
+              }
+              catch { conexion.ConexionMySql.Close(); }
+          } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
+
+      }
+      else
+      {
+          ((DbCommand)command).ExecuteNonQuery();
+
+      }
       foreach (DatosVentaVO datosVentaVo in lista)
       {
         if (datosVentaVo.DescuentaInventario)

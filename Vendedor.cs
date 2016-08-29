@@ -33,6 +33,7 @@ namespace Aptusoft
               try
               {
                   conexion.ConexionMySql.Open();
+                  ((DbCommand)command).ExecuteNonQuery();
               }
               catch { conexion.ConexionMySql.Close(); }
           } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
@@ -110,6 +111,7 @@ namespace Aptusoft
               try
               {
                   conexion.ConexionMySql.Open();
+                  ((DbCommand)command).ExecuteNonQuery();
               }
               catch { conexion.ConexionMySql.Close(); }
           } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);
@@ -134,6 +136,7 @@ namespace Aptusoft
               try
               {
                   conexion.ConexionMySql.Open();
+                  ((DbCommand)command).ExecuteNonQuery();
               }
               catch { conexion.ConexionMySql.Close(); }
           } while (conexion.ConexionMySql.State != ConnectionState.Open && con < 10);

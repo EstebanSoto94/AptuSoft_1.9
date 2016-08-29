@@ -67,24 +67,9 @@ namespace Aptusoft.Maquinaria
 
         private void guardaMaquina()
         {
-            maquinariaVO.codigo = txtCodigo.Text.Trim();
-            maquinariaVO.descripcion = txtDescripcion.Text.Trim();
-            maquinariaVO.nombre = txtNombre.Text.Trim();
-            maquinariaVO.valor = Convert.ToDecimal(txtValor.Text.Trim());
-            maquinariaVO.idEstado = Convert.ToInt32(cboEstados.SelectedValue.ToString());
-            maquinariaVO.estado = cboEstados.Text.ToString().Trim();
-            maquinariaVO.bod_1 = Convert.ToInt32(txtBod1.Text.Trim());
-            maquinariaVO.bod_2 = Convert.ToInt32(txtBod2.Text.Trim());
-            maquinariaVO.bod_3 = Convert.ToInt32(txtBod3.Text.Trim());
-            maquinariaVO.bod_4 = Convert.ToInt32(txtBod4.Text.Trim());
-            maquinariaVO.bod_5 = Convert.ToInt32(txtBod5.Text.Trim());
-            maquinariaVO.bod_6 = Convert.ToInt32(txtBod6.Text.Trim());
-            maquinariaVO.bod_7 = Convert.ToInt32(txtBod7.Text.Trim());
-            maquinariaVO.bod_8 = Convert.ToInt32(txtBod8.Text.Trim());
-            maquinariaVO.bod_9 = Convert.ToInt32(txtBod9.Text.Trim());
-            maquinariaVO.bod_10 = Convert.ToInt32(txtBod10.Text.Trim());
+            
 
-            ma.agregaMaquinaria(maquinariaVO);
+            ma.agregaMaquinaria(armaMaquina());
             cambiaEnabledFalse();
 
         }
@@ -190,11 +175,6 @@ namespace Aptusoft.Maquinaria
             limpiar();
         }
 
-        private void txtCodigo_Enter(object sender, EventArgs e)
-        {
-            
-        }
-
         private void buscarMaquinaria(string cod)
         {
             maquinariaVO = ma.buscaCodigoMaquinaria(cod);
@@ -203,7 +183,6 @@ namespace Aptusoft.Maquinaria
                 this._codEncontrado = 1;
                 int num = (int)MessageBox.Show("El Producto No Existe", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 string str = cod;
-                //this.iniciaProducto();
                 this.txtCodigo.Text = str;
                 this.btnGuardar.Enabled = true;
                 this.btnEliminar.Enabled = false;
@@ -280,6 +259,76 @@ namespace Aptusoft.Maquinaria
             this.txtBod9.Enabled = false;
             this.txtBod10.Enabled = false;
             this.cboEstados.Enabled = false;
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Esta seguro de Modificar la Maquinaria", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                if (!this.validaCampos())
+                    return;
+                //Producto producto = new Producto();
+                try
+                {
+                    //this.comparaStockActualiza();
+                    //producto.modificaProducto(this.armaProducto());
+                    ma.modificaMaquinaria(armaMaquina());
+                    int num = (int)MessageBox.Show("Maquinaria Modificado Correctamente", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    
+                    this._codEncontrado = 0;
+                }
+                catch (Exception ex)
+                {
+                    int num = (int)MessageBox.Show("Error al Modificar Maquinaria " + ex.Message);
+                }
+            }
+            else
+            {
+                this._codEncontrado = 0;
+            }
+        }
+
+        private MaquinariaVO armaMaquina()
+        {
+            maquinariaVO.codigo = txtCodigo.Text.Trim();
+            maquinariaVO.descripcion = txtDescripcion.Text.Trim();
+            maquinariaVO.nombre = txtNombre.Text.Trim();
+            maquinariaVO.valor = Convert.ToDecimal(txtValor.Text.Trim());
+            maquinariaVO.idEstado = Convert.ToInt32(cboEstados.SelectedValue.ToString());
+            maquinariaVO.estado = cboEstados.Text.ToString().Trim();
+            maquinariaVO.bod_1 = Convert.ToDecimal(txtBod1.Text.Trim());
+            maquinariaVO.bod_2 = Convert.ToDecimal(txtBod2.Text.Trim());
+            maquinariaVO.bod_3 = Convert.ToDecimal(txtBod3.Text.Trim());
+            maquinariaVO.bod_4 = Convert.ToDecimal(txtBod4.Text.Trim());
+            maquinariaVO.bod_5 = Convert.ToDecimal(txtBod5.Text.Trim());
+            maquinariaVO.bod_6 = Convert.ToDecimal(txtBod6.Text.Trim());
+            maquinariaVO.bod_7 = Convert.ToDecimal(txtBod7.Text.Trim());
+            maquinariaVO.bod_8 = Convert.ToDecimal(txtBod8.Text.Trim());
+            maquinariaVO.bod_9 = Convert.ToDecimal(txtBod9.Text.Trim());
+            maquinariaVO.bod_10 = Convert.ToDecimal(txtBod10.Text.Trim());
+
+            return maquinariaVO;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Esta seguro de Eliminar este Producto", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes || this.txtCodigo.Text.Trim().Length <= 0)
+                return;
+            try
+            {
+                ma.eliminaMaquinaria(txtCodigo.Text.Trim());
+                MessageBox.Show("");
+            }
+            catch(Exception ex)
+            {
+
+            }
+            
         }
     }
 }
