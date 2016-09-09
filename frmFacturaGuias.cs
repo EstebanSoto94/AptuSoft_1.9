@@ -102,165 +102,211 @@ namespace Aptusoft
 
     private void InitializeComponent()
     {
-      this.groupBox1 = new GroupBox();
-      this.txtRazonSocial = new TextBox();
-      this.btnBuscarCliente = new Button();
-      this.txtDigito = new TextBox();
-      this.txtRut = new TextBox();
-      this.label2 = new Label();
-      this.label1 = new Label();
-      this.btnMostrarGuias = new Button();
-      this.dgvGuias = new DataGridView();
-      this.btnFacturarGuias = new Button();
-      this.btnSeleccionaTodo = new Button();
-      this.btnSalir = new Button();
-      this.btnNoSeleccionar = new Button();
-      this.btnLimpiar = new Button();
-      this.chkSeleccionarTodas = new CheckBox();
-      this.groupBox1.SuspendLayout();
-      ((ISupportInitialize) this.dgvGuias).BeginInit();
-      this.SuspendLayout();
-      this.groupBox1.Controls.Add((Control) this.txtRazonSocial);
-      this.groupBox1.Controls.Add((Control) this.btnBuscarCliente);
-      this.groupBox1.Controls.Add((Control) this.txtDigito);
-      this.groupBox1.Controls.Add((Control) this.txtRut);
-      this.groupBox1.Controls.Add((Control) this.label2);
-      this.groupBox1.Controls.Add((Control) this.label1);
-      this.groupBox1.Location = new Point(4, 4);
-      this.groupBox1.Name = "groupBox1";
-      this.groupBox1.Size = new Size(595, 62);
-      this.groupBox1.TabIndex = 0;
-      this.groupBox1.TabStop = false;
-      this.txtRazonSocial.Location = new Point(151, 32);
-      this.txtRazonSocial.Name = "txtRazonSocial";
-      this.txtRazonSocial.Size = new Size(314, 20);
-      this.txtRazonSocial.TabIndex = 4;
-      this.btnBuscarCliente.BackgroundImageLayout = ImageLayout.Stretch;
-      this.btnBuscarCliente.Location = new Point(471, 27);
-      this.btnBuscarCliente.Name = "btnBuscarCliente";
-      this.btnBuscarCliente.Size = new Size(94, 25);
-      this.btnBuscarCliente.TabIndex = 5;
-      this.btnBuscarCliente.Text = "Buscar Cliente";
-      this.btnBuscarCliente.UseVisualStyleBackColor = true;
-      this.btnBuscarCliente.Click += new EventHandler(this.btnBuscarCliente_Click);
-      this.txtDigito.Location = new Point(111, 32);
-      this.txtDigito.Name = "txtDigito";
-      this.txtDigito.Size = new Size(35, 20);
-      this.txtDigito.TabIndex = 3;
-      this.txtDigito.KeyPress += new KeyPressEventHandler(this.txtDigito_KeyPress);
-      this.txtRut.Location = new Point(8, 32);
-      this.txtRut.Name = "txtRut";
-      this.txtRut.Size = new Size(100, 20);
-      this.txtRut.TabIndex = 2;
-      this.txtRut.KeyPress += new KeyPressEventHandler(this.txtRut_KeyPress);
-      this.label2.BackColor = Color.FromArgb(191, 219, (int) byte.MaxValue);
-      this.label2.Font = new Font("Microsoft Sans Serif", 9f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      this.label2.ForeColor = Color.Black;
-      this.label2.Location = new Point(151, 14);
-      this.label2.Name = "label2";
-      this.label2.Size = new Size(314, 18);
-      this.label2.TabIndex = 1;
-      this.label2.Text = "RAZON SOCIAL";
-      this.label1.BackColor = Color.FromArgb(191, 219, (int) byte.MaxValue);
-      this.label1.Font = new Font("Microsoft Sans Serif", 9f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      this.label1.ForeColor = Color.Black;
-      this.label1.Location = new Point(9, 14);
-      this.label1.Name = "label1";
-      this.label1.Size = new Size(136, 18);
-      this.label1.TabIndex = 0;
-      this.label1.Text = "RUT";
-      this.btnMostrarGuias.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.btnMostrarGuias.Location = new Point(518, 72);
-      this.btnMostrarGuias.Name = "btnMostrarGuias";
-      this.btnMostrarGuias.Size = new Size(81, 58);
-      this.btnMostrarGuias.TabIndex = 1;
-      this.btnMostrarGuias.Text = "BUSCAR GUIAS";
-      this.btnMostrarGuias.UseVisualStyleBackColor = true;
-      this.btnMostrarGuias.Click += new EventHandler(this.btnMostrarGuias_Click);
-      this.dgvGuias.AllowUserToAddRows = false;
-      this.dgvGuias.AllowUserToDeleteRows = false;
-      this.dgvGuias.BackgroundColor = Color.LightSteelBlue;
-      this.dgvGuias.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      this.dgvGuias.Location = new Point(4, 97);
-      this.dgvGuias.Name = "dgvGuias";
-      this.dgvGuias.RowHeadersVisible = false;
-      this.dgvGuias.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-      this.dgvGuias.RowTemplate.Resizable = DataGridViewTriState.False;
-      this.dgvGuias.ScrollBars = ScrollBars.Vertical;
-      this.dgvGuias.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-      this.dgvGuias.Size = new Size(508, 379);
-      this.dgvGuias.TabIndex = 2;
-      this.btnFacturarGuias.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.btnFacturarGuias.Location = new Point(518, 252);
-      this.btnFacturarGuias.Name = "btnFacturarGuias";
-      this.btnFacturarGuias.Size = new Size(81, 58);
-      this.btnFacturarGuias.TabIndex = 3;
-      this.btnFacturarGuias.Text = "FACTURAR GUIAS";
-      this.btnFacturarGuias.UseVisualStyleBackColor = true;
-      this.btnFacturarGuias.Click += new EventHandler(this.btnFacturarGuias_Click);
-      this.btnSeleccionaTodo.Location = new Point(518, 132);
-      this.btnSeleccionaTodo.Name = "btnSeleccionaTodo";
-      this.btnSeleccionaTodo.Size = new Size(81, 58);
-      this.btnSeleccionaTodo.TabIndex = 4;
-      this.btnSeleccionaTodo.Text = "Seleccionar Todo";
-      this.btnSeleccionaTodo.UseVisualStyleBackColor = true;
-      this.btnSeleccionaTodo.Visible = false;
-      this.btnSeleccionaTodo.Click += new EventHandler(this.btnSeleccionaTodo_Click);
-      this.btnSalir.Location = new Point(518, 419);
-      this.btnSalir.Name = "btnSalir";
-      this.btnSalir.Size = new Size(81, 58);
-      this.btnSalir.TabIndex = 5;
-      this.btnSalir.Text = "SALIR";
-      this.btnSalir.UseVisualStyleBackColor = true;
-      this.btnSalir.Click += new EventHandler(this.btnSalir_Click);
-      this.btnNoSeleccionar.Location = new Point(518, 192);
-      this.btnNoSeleccionar.Name = "btnNoSeleccionar";
-      this.btnNoSeleccionar.Size = new Size(81, 58);
-      this.btnNoSeleccionar.TabIndex = 6;
-      this.btnNoSeleccionar.Text = "Desmarcar Todo";
-      this.btnNoSeleccionar.UseVisualStyleBackColor = true;
-      this.btnNoSeleccionar.Visible = false;
-      this.btnNoSeleccionar.Click += new EventHandler(this.brnNoSeleccionar_Click);
-      this.btnLimpiar.Location = new Point(518, 355);
-      this.btnLimpiar.Name = "btnLimpiar";
-      this.btnLimpiar.Size = new Size(81, 58);
-      this.btnLimpiar.TabIndex = 7;
-      this.btnLimpiar.Text = "Limpiar";
-      this.btnLimpiar.UseVisualStyleBackColor = true;
-      this.btnLimpiar.Click += new EventHandler(this.btnLimpiar_Click);
-      this.chkSeleccionarTodas.AutoSize = true;
-      this.chkSeleccionarTodas.CheckAlign = ContentAlignment.MiddleRight;
-      this.chkSeleccionarTodas.Font = new Font("Microsoft Sans Serif", 9f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.chkSeleccionarTodas.Location = new Point(316, 72);
-      this.chkSeleccionarTodas.Name = "chkSeleccionarTodas";
-      this.chkSeleccionarTodas.Size = new Size(145, 19);
-      this.chkSeleccionarTodas.TabIndex = 8;
-      this.chkSeleccionarTodas.Text = "Seleccionar Todas";
-      this.chkSeleccionarTodas.UseVisualStyleBackColor = true;
-      this.chkSeleccionarTodas.CheckedChanged += new EventHandler(this.chkSeleccionarTodas_CheckedChanged);
-      this.AutoScaleDimensions = new SizeF(6f, 13f);
-//      this.AutoScaleMode = AutoScaleMode.Font;
-      this.BackColor = Color.FromArgb(223, 233, 245);
-      this.ClientSize = new Size(602, 490);
-      this.Controls.Add((Control) this.chkSeleccionarTodas);
-      this.Controls.Add((Control) this.btnLimpiar);
-      this.Controls.Add((Control) this.btnNoSeleccionar);
-      this.Controls.Add((Control) this.btnSalir);
-      this.Controls.Add((Control) this.btnSeleccionaTodo);
-      this.Controls.Add((Control) this.btnFacturarGuias);
-      this.Controls.Add((Control) this.dgvGuias);
-      this.Controls.Add((Control) this.btnMostrarGuias);
-      this.Controls.Add((Control) this.groupBox1);
-//      this.FormBorderStyle = FormBorderStyle.FixedSingle;
-      this.MaximizeBox = false;
-      this.Name = "frmFacturaGuias";
-      this.ShowIcon = false;
-      this.Text = "Facturar Guias de Despacho";
-      this.groupBox1.ResumeLayout(false);
-      this.groupBox1.PerformLayout();
-      ((ISupportInitialize) this.dgvGuias).EndInit();
-      this.ResumeLayout(false);
-      this.PerformLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtRazonSocial = new System.Windows.Forms.TextBox();
+            this.btnBuscarCliente = new System.Windows.Forms.Button();
+            this.txtDigito = new System.Windows.Forms.TextBox();
+            this.txtRut = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnMostrarGuias = new System.Windows.Forms.Button();
+            this.dgvGuias = new System.Windows.Forms.DataGridView();
+            this.btnFacturarGuias = new System.Windows.Forms.Button();
+            this.btnSeleccionaTodo = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnNoSeleccionar = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.chkSeleccionarTodas = new System.Windows.Forms.CheckBox();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGuias)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtRazonSocial);
+            this.groupBox1.Controls.Add(this.btnBuscarCliente);
+            this.groupBox1.Controls.Add(this.txtDigito);
+            this.groupBox1.Controls.Add(this.txtRut);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(4, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(595, 62);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            // 
+            // txtRazonSocial
+            // 
+            this.txtRazonSocial.Location = new System.Drawing.Point(151, 32);
+            this.txtRazonSocial.Name = "txtRazonSocial";
+            this.txtRazonSocial.Size = new System.Drawing.Size(314, 20);
+            this.txtRazonSocial.TabIndex = 4;
+            // 
+            // btnBuscarCliente
+            // 
+            this.btnBuscarCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBuscarCliente.Location = new System.Drawing.Point(471, 27);
+            this.btnBuscarCliente.Name = "btnBuscarCliente";
+            this.btnBuscarCliente.Size = new System.Drawing.Size(94, 25);
+            this.btnBuscarCliente.TabIndex = 5;
+            this.btnBuscarCliente.Text = "Buscar Cliente";
+            this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            this.btnBuscarCliente.Click += new System.EventHandler(this.btnBuscarCliente_Click);
+            // 
+            // txtDigito
+            // 
+            this.txtDigito.Location = new System.Drawing.Point(111, 32);
+            this.txtDigito.Name = "txtDigito";
+            this.txtDigito.Size = new System.Drawing.Size(35, 20);
+            this.txtDigito.TabIndex = 3;
+            this.txtDigito.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDigito_KeyPress);
+            // 
+            // txtRut
+            // 
+            this.txtRut.Location = new System.Drawing.Point(8, 32);
+            this.txtRut.Name = "txtRut";
+            this.txtRut.Size = new System.Drawing.Size(100, 20);
+            this.txtRut.TabIndex = 2;
+            this.txtRut.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRut_KeyPress);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(151, 14);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(314, 18);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "RAZON SOCIAL";
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(9, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(136, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "RUT";
+            // 
+            // btnMostrarGuias
+            // 
+            this.btnMostrarGuias.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrarGuias.Location = new System.Drawing.Point(518, 72);
+            this.btnMostrarGuias.Name = "btnMostrarGuias";
+            this.btnMostrarGuias.Size = new System.Drawing.Size(81, 58);
+            this.btnMostrarGuias.TabIndex = 1;
+            this.btnMostrarGuias.Text = "BUSCAR GUIAS";
+            this.btnMostrarGuias.UseVisualStyleBackColor = true;
+            this.btnMostrarGuias.Click += new System.EventHandler(this.btnMostrarGuias_Click);
+            // 
+            // dgvGuias
+            // 
+            this.dgvGuias.AllowUserToAddRows = false;
+            this.dgvGuias.AllowUserToDeleteRows = false;
+            this.dgvGuias.BackgroundColor = System.Drawing.Color.LightSteelBlue;
+            this.dgvGuias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGuias.Location = new System.Drawing.Point(4, 97);
+            this.dgvGuias.Name = "dgvGuias";
+            this.dgvGuias.RowHeadersVisible = false;
+            this.dgvGuias.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dgvGuias.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvGuias.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgvGuias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvGuias.Size = new System.Drawing.Size(508, 379);
+            this.dgvGuias.TabIndex = 2;
+            // 
+            // btnFacturarGuias
+            // 
+            this.btnFacturarGuias.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFacturarGuias.Location = new System.Drawing.Point(518, 252);
+            this.btnFacturarGuias.Name = "btnFacturarGuias";
+            this.btnFacturarGuias.Size = new System.Drawing.Size(81, 58);
+            this.btnFacturarGuias.TabIndex = 3;
+            this.btnFacturarGuias.Text = "FACTURAR GUIAS";
+            this.btnFacturarGuias.UseVisualStyleBackColor = true;
+            this.btnFacturarGuias.Click += new System.EventHandler(this.btnFacturarGuias_Click);
+            // 
+            // btnSeleccionaTodo
+            // 
+            this.btnSeleccionaTodo.Location = new System.Drawing.Point(518, 132);
+            this.btnSeleccionaTodo.Name = "btnSeleccionaTodo";
+            this.btnSeleccionaTodo.Size = new System.Drawing.Size(81, 58);
+            this.btnSeleccionaTodo.TabIndex = 4;
+            this.btnSeleccionaTodo.Text = "Seleccionar Todo";
+            this.btnSeleccionaTodo.UseVisualStyleBackColor = true;
+            this.btnSeleccionaTodo.Visible = false;
+            this.btnSeleccionaTodo.Click += new System.EventHandler(this.btnSeleccionaTodo_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(518, 419);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(81, 58);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "SALIR";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnNoSeleccionar
+            // 
+            this.btnNoSeleccionar.Location = new System.Drawing.Point(518, 192);
+            this.btnNoSeleccionar.Name = "btnNoSeleccionar";
+            this.btnNoSeleccionar.Size = new System.Drawing.Size(81, 58);
+            this.btnNoSeleccionar.TabIndex = 6;
+            this.btnNoSeleccionar.Text = "Desmarcar Todo";
+            this.btnNoSeleccionar.UseVisualStyleBackColor = true;
+            this.btnNoSeleccionar.Visible = false;
+            this.btnNoSeleccionar.Click += new System.EventHandler(this.brnNoSeleccionar_Click);
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(518, 355);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(81, 58);
+            this.btnLimpiar.TabIndex = 7;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // chkSeleccionarTodas
+            // 
+            this.chkSeleccionarTodas.AutoSize = true;
+            this.chkSeleccionarTodas.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkSeleccionarTodas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkSeleccionarTodas.Location = new System.Drawing.Point(316, 72);
+            this.chkSeleccionarTodas.Name = "chkSeleccionarTodas";
+            this.chkSeleccionarTodas.Size = new System.Drawing.Size(145, 19);
+            this.chkSeleccionarTodas.TabIndex = 8;
+            this.chkSeleccionarTodas.Text = "Seleccionar Todas";
+            this.chkSeleccionarTodas.UseVisualStyleBackColor = true;
+            this.chkSeleccionarTodas.CheckedChanged += new System.EventHandler(this.chkSeleccionarTodas_CheckedChanged);
+            // 
+            // frmFacturaGuias
+            // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(233)))), ((int)(((byte)(245)))));
+            this.ClientSize = new System.Drawing.Size(602, 490);
+            this.Controls.Add(this.chkSeleccionarTodas);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnNoSeleccionar);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnSeleccionaTodo);
+            this.Controls.Add(this.btnFacturarGuias);
+            this.Controls.Add(this.dgvGuias);
+            this.Controls.Add(this.btnMostrarGuias);
+            this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.Name = "frmFacturaGuias";
+            this.ShowIcon = false;
+            this.Text = "Facturar Guias de Despacho";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGuias)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
     }
 
     private void iniciaFormulario()
@@ -325,6 +371,13 @@ namespace Aptusoft
       this.dgvGuias.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
       this.dgvGuias.Columns[4].Resizable = DataGridViewTriState.False;
       this.dgvGuias.Columns[4].ReadOnly = true;
+      this.dgvGuias.Columns.Add("SubTotal", "SubTotal");
+      this.dgvGuias.Columns[5].DataPropertyName = "SubTotal";
+      this.dgvGuias.Columns[5].Width = 80;
+      this.dgvGuias.Columns[5].DefaultCellStyle.Format = "C0";
+      this.dgvGuias.Columns[5].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+      this.dgvGuias.Columns[5].Resizable = DataGridViewTriState.False;
+      this.dgvGuias.Columns[5].ReadOnly = true;
       DataGridViewCheckBoxColumn viewCheckBoxColumn = new DataGridViewCheckBoxColumn();
       viewCheckBoxColumn.Name = "Selecciona";
       viewCheckBoxColumn.HeaderText = "Seleccione";
@@ -481,7 +534,8 @@ namespace Aptusoft
             IdFactura = Convert.ToInt32(dataGridViewRow.Cells["IdGuia"].Value.ToString()),
             Folio = Convert.ToInt32(dataGridViewRow.Cells["Folio"].Value.ToString()),
             FechaEmision = Convert.ToDateTime(dataGridViewRow.Cells["FechaEmision"].Value.ToString()),
-            Total = Convert.ToDecimal(dataGridViewRow.Cells["Total"].Value.ToString())
+            Total = Convert.ToDecimal(dataGridViewRow.Cells["Total"].Value.ToString()),
+            SubTotal = Convert.ToDecimal(dataGridViewRow.Cells["SubTotal"].Value.ToString())
           });
           ++num1;
         }

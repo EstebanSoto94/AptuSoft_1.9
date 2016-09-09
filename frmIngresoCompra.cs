@@ -2359,7 +2359,7 @@ namespace Aptusoft
       textBox2.Text = str2;
       Decimal num7 = calculos.totalGeneralCompraExento(frmIngresoCompra.lista);
       this.txtTotalExento.Text = num7.ToString("N0");
-      this.txtTotalCobrar.Text = (total).ToString("N0");
+      this.txtTotalCobrar.Text = (total + num7).ToString("N0");
       //this.txtTotalCobrar.Text = (total).ToString("N0");
       //this.txtTotalCobrar.Text = "";
       //this.txtTotalCobrar.Text = this.txtNeto.Text;
@@ -2567,7 +2567,7 @@ namespace Aptusoft
       {
         veOB.IdTipoDocumentoCompra = Convert.ToInt32(this.cmbTipoDocumento.SelectedValue.ToString());
         veOB.TipoDocumentoCompra = this.cmbTipoDocumento.Text.ToString().ToUpper();
-        flag = true;
+        //flag = true;
       }
       if (this.cmbCentroCosto.SelectedValue != null)
       {

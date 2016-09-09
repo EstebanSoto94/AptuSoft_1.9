@@ -339,11 +339,11 @@ namespace Aptusoft.FacturaElectronica.Formularios
 
     private void InitializeComponent()
     {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarProductosTeclaF4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1343,21 +1343,21 @@ namespace Aptusoft.FacturaElectronica.Formularios
             // 
             this.dgvDatosVenta.AllowUserToAddRows = false;
             this.dgvDatosVenta.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Lavender;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dgvDatosVenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Lavender;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dgvDatosVenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvDatosVenta.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.dgvDatosVenta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvDatosVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDatosVenta.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDatosVenta.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvDatosVenta.Location = new System.Drawing.Point(12, 220);
             this.dgvDatosVenta.MultiSelect = false;
             this.dgvDatosVenta.Name = "dgvDatosVenta";
@@ -1599,18 +1599,18 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.dgvBuscaCliente.AllowUserToDeleteRows = false;
             this.dgvBuscaCliente.AllowUserToResizeColumns = false;
             this.dgvBuscaCliente.AllowUserToResizeRows = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Lavender;
-            this.dgvBuscaCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Lavender;
+            this.dgvBuscaCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvBuscaCliente.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
             this.dgvBuscaCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBuscaCliente.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBuscaCliente.DefaultCellStyle = dataGridViewCellStyle9;
             this.dgvBuscaCliente.Location = new System.Drawing.Point(3, 3);
             this.dgvBuscaCliente.Name = "dgvBuscaCliente";
             this.dgvBuscaCliente.ReadOnly = true;
@@ -1779,6 +1779,7 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.btnEnviar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEnviar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Visible = false;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // panel1
@@ -2402,9 +2403,9 @@ namespace Aptusoft.FacturaElectronica.Formularios
             // FechaDocumentoReferencia
             // 
             this.FechaDocumentoReferencia.DataPropertyName = "FechaDocumentoReferencia";
-            dataGridViewCellStyle5.Format = "d";
-            dataGridViewCellStyle5.NullValue = null;
-            this.FechaDocumentoReferencia.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.Format = "d";
+            dataGridViewCellStyle10.NullValue = null;
+            this.FechaDocumentoReferencia.DefaultCellStyle = dataGridViewCellStyle10;
             this.FechaDocumentoReferencia.HeaderText = "Fecha";
             this.FechaDocumentoReferencia.Name = "FechaDocumentoReferencia";
             this.FechaDocumentoReferencia.ReadOnly = true;
@@ -6055,6 +6056,7 @@ namespace Aptusoft.FacturaElectronica.Formularios
 
     public void facturaGuias(List<Venta> listaGuias)
     {
+
       this.lista.Clear();
       string str = "";
       int num = 0;
@@ -6068,7 +6070,7 @@ namespace Aptusoft.FacturaElectronica.Formularios
           dv.DescuentaInventario = false;
           dv.IdFactura = 0;
           dv.FolioFactura = Convert.ToInt32(this.txtNumeroDocumento.Text.Trim());
-          this.agregaLineasDesdeGuias(dv);
+          //this.agregaLineasDesdeGuias(dv);
         }
         str = num != 0 ? str + "-" + venta.Folio.ToString("N0") : str + venta.Folio.ToString("N0");
         ++num;
@@ -6076,9 +6078,29 @@ namespace Aptusoft.FacturaElectronica.Formularios
       this.hayGuia = true;
       this.txtGuias.Text = str;
       this.buscaClienteCodigo(this.codigoCliente);
-      this.dgvDatosVenta.DataSource = (object) this.lista;
-      this.calculaTotales();
+      //this.dgvDatosVenta.DataSource = (object) this.lista;
+      //this.calculaTotales();
       this.armaReferenciaDeGuia();
+
+      string glosa = "Factura Elect. segun Guias: ";
+      int i = 0;
+      decimal precio = 0;
+      foreach (Venta venta in listaGuias)
+      {
+          
+          glosa += "N" + listaGuias[i].Folio + ", ";
+          precio = precio + listaGuias[i].SubTotal;
+          i++;
+      }
+
+      glosa = glosa.Remove(glosa.Length - 2, 2);
+
+      txtDescripcion.Text = glosa;
+      txtPrecio.Text = precio.ToString();
+      txtCantidad.Text = "1";
+      
+
+      this.agregaLineaGrilla();
     }
 
     private void agregaLineasDesdeGuias(DatosVentaVO dv)
@@ -6148,7 +6170,7 @@ namespace Aptusoft.FacturaElectronica.Formularios
       {
         FolioDocumento = Convert.ToInt32(this.txtNumeroDocumento.Text.Trim()),
         TipoDocumento = 52,
-        TipoDocumentoNombre = "GUIA ELECTRONICA",
+        TipoDocumentoNombre = "GUIA DESPACHO ELECTRONICA M",
         FolioDocumentoReferencia = "0",
         FechaDocumentoReferencia = this.dtpEmision.Value,
         TipoAccion = 0,

@@ -161,6 +161,8 @@ namespace Aptusoft
         private Button btnAceptarTecnico;
         private TextBox txtTareaTecnico;
         private Label label35;
+        private Label label36;
+        private TextBox txtComisionTarea;
         private int codigoCliente;
 
 
@@ -190,14 +192,14 @@ namespace Aptusoft
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarOTTeclaF6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -233,13 +235,15 @@ namespace Aptusoft
             this.gbZonaFechas = new System.Windows.Forms.GroupBox();
             this.dtpEntrega = new System.Windows.Forms.DateTimePicker();
             this.dtpEmision = new System.Windows.Forms.DateTimePicker();
+            this.cmbVendedor = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbVendedor = new System.Windows.Forms.ComboBox();
             this.label32 = new System.Windows.Forms.Label();
             this.gbZonaOtros = new System.Windows.Forms.GroupBox();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.label27 = new System.Windows.Forms.Label();
+            this.cmbTecnico = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.gbZonaTicket = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -281,12 +285,17 @@ namespace Aptusoft
             this.label19 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.panelTareaTecnico = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.txtComisionTarea = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnAceptarTecnico = new System.Windows.Forms.Button();
+            this.txtTareaTecnico = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
             this.btnAgregarVendedor = new System.Windows.Forms.Button();
             this.dgvVendedores = new System.Windows.Forms.DataGridView();
             this.btnAgregarTecnico = new System.Windows.Forms.Button();
-            this.cmbTecnico = new System.Windows.Forms.ComboBox();
             this.dgvTecnicos = new System.Windows.Forms.DataGridView();
-            this.label18 = new System.Windows.Forms.Label();
             this.gbZonaBotones = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -320,11 +329,6 @@ namespace Aptusoft
             this.btnBuscaFolio = new System.Windows.Forms.Button();
             this.txtFolioBuscar = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.panelTareaTecnico = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnAceptarTecnico = new System.Windows.Forms.Button();
-            this.txtTareaTecnico = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.gbZonaCliente.SuspendLayout();
             this.gbZonaFechas.SuspendLayout();
@@ -339,12 +343,12 @@ namespace Aptusoft
             this.panelZonaDetalle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosVenta)).BeginInit();
             this.tabPage3.SuspendLayout();
+            this.panelTareaTecnico.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVendedores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTecnicos)).BeginInit();
             this.gbZonaBotones.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.panelFolio.SuspendLayout();
-            this.panelTareaTecnico.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -663,11 +667,13 @@ namespace Aptusoft
             // 
             this.gbZonaFechas.Controls.Add(this.dtpEntrega);
             this.gbZonaFechas.Controls.Add(this.dtpEmision);
+            this.gbZonaFechas.Controls.Add(this.cmbVendedor);
             this.gbZonaFechas.Controls.Add(this.label2);
             this.gbZonaFechas.Controls.Add(this.label1);
+            this.gbZonaFechas.Controls.Add(this.label32);
             this.gbZonaFechas.Location = new System.Drawing.Point(7, 27);
             this.gbZonaFechas.Name = "gbZonaFechas";
-            this.gbZonaFechas.Size = new System.Drawing.Size(223, 58);
+            this.gbZonaFechas.Size = new System.Drawing.Size(362, 58);
             this.gbZonaFechas.TabIndex = 100;
             this.gbZonaFechas.TabStop = false;
             // 
@@ -686,6 +692,17 @@ namespace Aptusoft
             this.dtpEmision.Name = "dtpEmision";
             this.dtpEmision.Size = new System.Drawing.Size(104, 20);
             this.dtpEmision.TabIndex = 0;
+            // 
+            // cmbVendedor
+            // 
+            this.cmbVendedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cmbVendedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbVendedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbVendedor.FormattingEnabled = true;
+            this.cmbVendedor.Location = new System.Drawing.Point(220, 29);
+            this.cmbVendedor.Name = "cmbVendedor";
+            this.cmbVendedor.Size = new System.Drawing.Size(131, 21);
+            this.cmbVendedor.TabIndex = 2;
             // 
             // label2
             // 
@@ -707,22 +724,11 @@ namespace Aptusoft
             this.label1.TabIndex = 1;
             this.label1.Text = "Fecha Recepción";
             // 
-            // cmbVendedor
-            // 
-            this.cmbVendedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmbVendedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbVendedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbVendedor.FormattingEnabled = true;
-            this.cmbVendedor.Location = new System.Drawing.Point(444, 19);
-            this.cmbVendedor.Name = "cmbVendedor";
-            this.cmbVendedor.Size = new System.Drawing.Size(131, 21);
-            this.cmbVendedor.TabIndex = 2;
-            // 
             // label32
             // 
             this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(444, 5);
+            this.label32.Location = new System.Drawing.Point(220, 15);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(131, 23);
             this.label32.TabIndex = 41;
@@ -732,9 +738,11 @@ namespace Aptusoft
             // 
             this.gbZonaOtros.Controls.Add(this.cmbEstado);
             this.gbZonaOtros.Controls.Add(this.label27);
-            this.gbZonaOtros.Location = new System.Drawing.Point(578, 27);
+            this.gbZonaOtros.Controls.Add(this.cmbTecnico);
+            this.gbZonaOtros.Controls.Add(this.label18);
+            this.gbZonaOtros.Location = new System.Drawing.Point(434, 27);
             this.gbZonaOtros.Name = "gbZonaOtros";
-            this.gbZonaOtros.Size = new System.Drawing.Size(154, 58);
+            this.gbZonaOtros.Size = new System.Drawing.Size(298, 58);
             this.gbZonaOtros.TabIndex = 101;
             this.gbZonaOtros.TabStop = false;
             // 
@@ -744,7 +752,7 @@ namespace Aptusoft
             this.cmbEstado.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(13, 29);
+            this.cmbEstado.Location = new System.Drawing.Point(161, 29);
             this.cmbEstado.Name = "cmbEstado";
             this.cmbEstado.Size = new System.Drawing.Size(131, 21);
             this.cmbEstado.TabIndex = 4;
@@ -754,11 +762,32 @@ namespace Aptusoft
             // 
             this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(13, 15);
+            this.label27.Location = new System.Drawing.Point(161, 15);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(131, 23);
             this.label27.TabIndex = 21;
             this.label27.Text = "Estado OT";
+            // 
+            // cmbTecnico
+            // 
+            this.cmbTecnico.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cmbTecnico.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbTecnico.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTecnico.FormattingEnabled = true;
+            this.cmbTecnico.Location = new System.Drawing.Point(19, 30);
+            this.cmbTecnico.Name = "cmbTecnico";
+            this.cmbTecnico.Size = new System.Drawing.Size(140, 21);
+            this.cmbTecnico.TabIndex = 3;
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(19, 15);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(140, 23);
+            this.label18.TabIndex = 23;
+            this.label18.Text = "Técnico";
             // 
             // gbZonaTicket
             // 
@@ -1021,7 +1050,7 @@ namespace Aptusoft
             this.txtCantidad.Size = new System.Drawing.Size(57, 20);
             this.txtCantidad.TabIndex = 12;
             this.txtCantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
+            this.txtCantidad.TextChanged += new System.EventHandler(this.txtPorcDescuentoLinea_Enter);
             this.txtCantidad.Enter += new System.EventHandler(this.txtCantidad_Enter);
             this.txtCantidad.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCantidad_KeyDown);
             this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
@@ -1030,20 +1059,20 @@ namespace Aptusoft
             // 
             this.dgvDatosVenta.AllowUserToAddRows = false;
             this.dgvDatosVenta.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.Lavender;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dgvDatosVenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Lavender;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dgvDatosVenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDatosVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDatosVenta.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDatosVenta.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDatosVenta.Location = new System.Drawing.Point(3, 69);
             this.dgvDatosVenta.MultiSelect = false;
             this.dgvDatosVenta.Name = "dgvDatosVenta";
@@ -1249,19 +1278,90 @@ namespace Aptusoft
             // 
             this.tabPage3.Controls.Add(this.panelTareaTecnico);
             this.tabPage3.Controls.Add(this.btnAgregarVendedor);
-            this.tabPage3.Controls.Add(this.cmbVendedor);
             this.tabPage3.Controls.Add(this.dgvVendedores);
             this.tabPage3.Controls.Add(this.btnAgregarTecnico);
-            this.tabPage3.Controls.Add(this.label32);
-            this.tabPage3.Controls.Add(this.cmbTecnico);
             this.tabPage3.Controls.Add(this.dgvTecnicos);
-            this.tabPage3.Controls.Add(this.label18);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(865, 265);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Técnicos";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // panelTareaTecnico
+            // 
+            this.panelTareaTecnico.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelTareaTecnico.Controls.Add(this.label36);
+            this.panelTareaTecnico.Controls.Add(this.txtComisionTarea);
+            this.panelTareaTecnico.Controls.Add(this.button1);
+            this.panelTareaTecnico.Controls.Add(this.btnAceptarTecnico);
+            this.panelTareaTecnico.Controls.Add(this.txtTareaTecnico);
+            this.panelTareaTecnico.Controls.Add(this.label35);
+            this.panelTareaTecnico.Location = new System.Drawing.Point(92, 75);
+            this.panelTareaTecnico.Name = "panelTareaTecnico";
+            this.panelTareaTecnico.Size = new System.Drawing.Size(302, 156);
+            this.panelTareaTecnico.TabIndex = 107;
+            this.panelTareaTecnico.Visible = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(204, 53);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(73, 13);
+            this.label36.TabIndex = 26;
+            this.label36.Text = "Comisión en $";
+            // 
+            // txtComisionTarea
+            // 
+            this.txtComisionTarea.Location = new System.Drawing.Point(206, 69);
+            this.txtComisionTarea.Name = "txtComisionTarea";
+            this.txtComisionTarea.Size = new System.Drawing.Size(71, 20);
+            this.txtComisionTarea.TabIndex = 2;
+            this.txtComisionTarea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtComisionTarea_KeyPress);
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(274, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(23, 24);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnAceptarTecnico
+            // 
+            this.btnAceptarTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptarTecnico.Location = new System.Drawing.Point(25, 121);
+            this.btnAceptarTecnico.Name = "btnAceptarTecnico";
+            this.btnAceptarTecnico.Size = new System.Drawing.Size(264, 25);
+            this.btnAceptarTecnico.TabIndex = 3;
+            this.btnAceptarTecnico.Text = "Aceptar";
+            this.btnAceptarTecnico.UseVisualStyleBackColor = true;
+            this.btnAceptarTecnico.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // txtTareaTecnico
+            // 
+            this.txtTareaTecnico.Location = new System.Drawing.Point(26, 33);
+            this.txtTareaTecnico.MaxLength = 200;
+            this.txtTareaTecnico.Multiline = true;
+            this.txtTareaTecnico.Name = "txtTareaTecnico";
+            this.txtTareaTecnico.Size = new System.Drawing.Size(162, 82);
+            this.txtTareaTecnico.TabIndex = 1;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(58, 8);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(181, 16);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "Ingrese Tarea Realizada";
             // 
             // btnAgregarVendedor
             // 
@@ -1271,6 +1371,7 @@ namespace Aptusoft
             this.btnAgregarVendedor.TabIndex = 42;
             this.btnAgregarVendedor.Text = "Agregar Vendedor";
             this.btnAgregarVendedor.UseVisualStyleBackColor = true;
+            this.btnAgregarVendedor.Visible = false;
             this.btnAgregarVendedor.Click += new System.EventHandler(this.btnAgregarVendedor_Click);
             // 
             // dgvVendedores
@@ -1278,34 +1379,34 @@ namespace Aptusoft
             this.dgvVendedores.AllowUserToAddRows = false;
             this.dgvVendedores.AllowUserToDeleteRows = false;
             this.dgvVendedores.AllowUserToResizeRows = false;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvVendedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvVendedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvVendedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvVendedores.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvVendedores.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvVendedores.Location = new System.Drawing.Point(445, 47);
             this.dgvVendedores.MultiSelect = false;
             this.dgvVendedores.Name = "dgvVendedores";
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvVendedores.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvVendedores.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvVendedores.RowHeadersVisible = false;
             this.dgvVendedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvVendedores.Size = new System.Drawing.Size(414, 215);
@@ -1320,67 +1421,47 @@ namespace Aptusoft
             this.btnAgregarTecnico.TabIndex = 27;
             this.btnAgregarTecnico.Text = "Agregar Técnico";
             this.btnAgregarTecnico.UseVisualStyleBackColor = true;
+            this.btnAgregarTecnico.Visible = false;
             this.btnAgregarTecnico.Click += new System.EventHandler(this.btnAgregarTecnico_Click);
-            // 
-            // cmbTecnico
-            // 
-            this.cmbTecnico.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmbTecnico.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbTecnico.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbTecnico.FormattingEnabled = true;
-            this.cmbTecnico.Location = new System.Drawing.Point(7, 19);
-            this.cmbTecnico.Name = "cmbTecnico";
-            this.cmbTecnico.Size = new System.Drawing.Size(140, 21);
-            this.cmbTecnico.TabIndex = 3;
             // 
             // dgvTecnicos
             // 
             this.dgvTecnicos.AllowUserToAddRows = false;
             this.dgvTecnicos.AllowUserToDeleteRows = false;
             this.dgvTecnicos.AllowUserToResizeRows = false;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTecnicos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTecnicos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvTecnicos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTecnicos.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTecnicos.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvTecnicos.Location = new System.Drawing.Point(7, 47);
             this.dgvTecnicos.MultiSelect = false;
             this.dgvTecnicos.Name = "dgvTecnicos";
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTecnicos.RowHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTecnicos.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvTecnicos.RowHeadersVisible = false;
             this.dgvTecnicos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTecnicos.Size = new System.Drawing.Size(407, 215);
             this.dgvTecnicos.TabIndex = 26;
             this.dgvTecnicos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTecnicos_CellClick);
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(7, 4);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(140, 23);
-            this.label18.TabIndex = 23;
-            this.label18.Text = "Técnico";
             // 
             // gbZonaBotones
             // 
@@ -1813,62 +1894,6 @@ namespace Aptusoft
             this.label33.TabIndex = 0;
             this.label33.Text = "Ingrese Folio a Buscar";
             // 
-            // panelTareaTecnico
-            // 
-            this.panelTareaTecnico.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelTareaTecnico.Controls.Add(this.button1);
-            this.panelTareaTecnico.Controls.Add(this.btnAceptarTecnico);
-            this.panelTareaTecnico.Controls.Add(this.txtTareaTecnico);
-            this.panelTareaTecnico.Controls.Add(this.label35);
-            this.panelTareaTecnico.Location = new System.Drawing.Point(92, 75);
-            this.panelTareaTecnico.Name = "panelTareaTecnico";
-            this.panelTareaTecnico.Size = new System.Drawing.Size(302, 156);
-            this.panelTareaTecnico.TabIndex = 107;
-            this.panelTareaTecnico.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(274, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(23, 24);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnAceptarTecnico
-            // 
-            this.btnAceptarTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptarTecnico.Location = new System.Drawing.Point(25, 121);
-            this.btnAceptarTecnico.Name = "btnAceptarTecnico";
-            this.btnAceptarTecnico.Size = new System.Drawing.Size(264, 25);
-            this.btnAceptarTecnico.TabIndex = 2;
-            this.btnAceptarTecnico.Text = "Aceptar";
-            this.btnAceptarTecnico.UseVisualStyleBackColor = true;
-            this.btnAceptarTecnico.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // txtTareaTecnico
-            // 
-            this.txtTareaTecnico.Location = new System.Drawing.Point(26, 33);
-            this.txtTareaTecnico.MaxLength = 200;
-            this.txtTareaTecnico.Multiline = true;
-            this.txtTareaTecnico.Name = "txtTareaTecnico";
-            this.txtTareaTecnico.Size = new System.Drawing.Size(162, 82);
-            this.txtTareaTecnico.TabIndex = 1;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(58, 8);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(181, 16);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "Ingrese Tarea Realizada";
-            // 
             // frmOrdenTrabajo
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(233)))), ((int)(((byte)(245)))));
@@ -1911,6 +1936,8 @@ namespace Aptusoft
             this.panelZonaDetalle.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosVenta)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.panelTareaTecnico.ResumeLayout(false);
+            this.panelTareaTecnico.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVendedores)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTecnicos)).EndInit();
             this.gbZonaBotones.ResumeLayout(false);
@@ -1919,8 +1946,6 @@ namespace Aptusoft
             this.groupBox4.PerformLayout();
             this.panelFolio.ResumeLayout(false);
             this.panelFolio.PerformLayout();
-            this.panelTareaTecnico.ResumeLayout(false);
-            this.panelTareaTecnico.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3222,6 +3247,8 @@ namespace Aptusoft
         {
             this.panelTareaTecnico.Visible = true;
             this.txtTareaTecnico.Clear();
+            this.txtComisionTarea.Clear();
+            this.txtComisionTarea.Text = "0";
             this.txtTareaTecnico.Focus();
         }
 
@@ -3233,15 +3260,36 @@ namespace Aptusoft
         private void creaDGVTecnicos()
         {
             DataGridViewTextBoxColumn c1 = new DataGridViewTextBoxColumn();
-            c1.HeaderText = "Nombre del Técnico";
-            c1.Width = 320;
+            c1.Name = "id";
+            c1.HeaderText = "id";
+            c1.Width = 25;
             c1.ReadOnly = true;
 
             DataGridViewTextBoxColumn c2 = new DataGridViewTextBoxColumn();
-            c2.HeaderText = "id";
-            c2.Width = 25;
+            c2.Name = "NombreTecnico";
+            c2.HeaderText = "Nombre Técnico";
+            c2.Width = 200;
             c2.ReadOnly = true;
             c2.Visible = true;
+
+            DataGridViewTextBoxColumn c3 = new DataGridViewTextBoxColumn();
+            c3.Name = "TareaRealizada";
+            c3.HeaderText = "Tarea Realizada";
+            c3.Width = 300;
+            c3.ReadOnly = true;
+            c3.Visible = true;
+
+            DataGridViewTextBoxColumn c4 = new DataGridViewTextBoxColumn();
+            c4.Name = "Comision";
+            c4.HeaderText = "Comisión";
+            c4.Width = 75;
+            c4.ReadOnly = true;
+            c4.Visible = true;
+
+            DataGridViewTextBoxColumn c5 = new DataGridViewTextBoxColumn();
+            c5.Name = "FechaTarea";
+            c5.ReadOnly = true;
+            c5.Visible = false;
 
             DataGridViewButtonColumn viewButtonColumn = new DataGridViewButtonColumn();
             viewButtonColumn.Name = "Eliminar";
@@ -3254,21 +3302,38 @@ namespace Aptusoft
             
             this.dgvTecnicos.Columns.Add(c1);
             this.dgvTecnicos.Columns.Add(c2);
+            this.dgvTecnicos.Columns.Add(c3);
+            this.dgvTecnicos.Columns.Add(c4);
+            this.dgvTecnicos.Columns.Add(c5);
             this.dgvTecnicos.Columns.Add((DataGridViewColumn)viewButtonColumn);
         }
 
         private void creaDGVVendedores()
         {
             DataGridViewTextBoxColumn c1 = new DataGridViewTextBoxColumn();
-            c1.HeaderText = "Nombre del Vendedor";
+            c1.Name = "id";
+            c1.HeaderText = "id";
             c1.Width = 320;
             c1.ReadOnly = true;
 
             DataGridViewTextBoxColumn c2 = new DataGridViewTextBoxColumn();
-            c2.HeaderText = "id";
+            c2.Name = "NombreTecnico";
+            c2.HeaderText = "Nombre del Vendedor";
             c2.Width = 25;
             c2.ReadOnly = true;
             c2.Visible = true;
+
+            DataGridViewTextBoxColumn c3 = new DataGridViewTextBoxColumn();
+            c3.HeaderText = "Tarea Realizada";
+            c3.Width = 25;
+            c3.ReadOnly = true;
+            c3.Visible = true;
+
+            DataGridViewTextBoxColumn c4 = new DataGridViewTextBoxColumn();
+            c4.HeaderText = "Comisión";
+            c4.Width = 25;
+            c4.ReadOnly = true;
+            c4.Visible = true;
 
             DataGridViewButtonColumn viewButtonColumn = new DataGridViewButtonColumn();
             viewButtonColumn.Name = "Eliminar";
@@ -3286,7 +3351,10 @@ namespace Aptusoft
 
         private void dgvTecnicos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (!dgvTecnicos.CurrentRow.Equals(string.Empty) && MessageBox.Show("Esta seguro de Eliminar esta Fila", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (!(this.dgvTecnicos.Columns[e.ColumnIndex].Name == "Eliminar") || MessageBox.Show("Esta seguro de Eliminar esta Fila", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                return;
+
+            if (!dgvTecnicos.CurrentRow.Equals(string.Empty))
             {
                 dgvTecnicos.Rows.Remove(dgvTecnicos.CurrentRow);
             }
@@ -3328,7 +3396,7 @@ namespace Aptusoft
         {
             if (!(cmbTecnico.SelectedIndex == 0))
             {
-                dgvTecnicos.Rows.Add(cmbTecnico.Text, cmbTecnico.SelectedValue.ToString());
+                dgvTecnicos.Rows.Add(cmbTecnico.SelectedValue.ToString(), cmbTecnico.Text, txtTareaTecnico.Text, txtComisionTarea.Text, DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss"));
             }
             else
             {
@@ -3339,6 +3407,15 @@ namespace Aptusoft
         private void button1_Click(object sender, EventArgs e)
         {
             this.panelTareaTecnico.Visible = false;
+        }
+
+        private void txtComisionTarea_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            this.soloNumeros(e, this.txtComisionTarea);
+            if ((int)e.KeyChar != 13 || this.txtComisionTarea.Text.Length <= 0)
+                return;
+            agregarTecnico();
+            panelTareaTecnico.Visible = false;
         }
     }
 }

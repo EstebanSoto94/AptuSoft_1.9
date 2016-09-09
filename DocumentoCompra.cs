@@ -558,11 +558,11 @@ namespace Aptusoft
       try
       {
         MySqlCommand command = this.conexion.ConexionMySql.CreateCommand();
-        ((DbCommand) command).CommandText = "SELECT idCompra, tipoDocumentoCompra, folio, fechaEmision, rut, digito, razonSocial, totalCobrar, estadoPago, totalPagado, totalPendiente, totalDocumentado FROM compras\r\n                                    WHERE DATE_FORMAT(fechaEmision, '%Y-%m-%d') >= DATE_FORMAT(@desde, '%Y-%m-%d') AND DATE_FORMAT(fechaEmision, '%Y-%m-%d') <= DATE_FORMAT(@hasta, '%Y-%m-%d') " + str2 + str1 + str4 + " AND (idTipoDocumentoCompra=1 OR idTipoDocumentoCompra=5) ORDER BY fechaEmision DESC";
+        ((DbCommand)command).CommandText = "SELECT idCompra, tipoDocumentoCompra, folio, fechaEmision, rut, digito, razonSocial, totalCobrar, estadoPago, totalPagado, totalPendiente, totalDocumentado FROM compras WHERE DATE_FORMAT(fechaEmision, '%Y-%m-%d') >= DATE_FORMAT(@desde, '%Y-%m-%d') AND DATE_FORMAT(fechaEmision, '%Y-%m-%d') <= DATE_FORMAT(@hasta, '%Y-%m-%d') " + str2 + str1 + str4 + " ORDER BY fechaEmision DESC"; //AND (idTipoDocumentoCompra=1 OR idTipoDocumentoCompra=5)
         command.Parameters.AddWithValue("@desde", (object) desde);
         command.Parameters.AddWithValue("@hasta", (object) hasta);
         ((DbDataAdapter) new MySqlDataAdapter(command)).Fill(dataTable1);
-        ((DbCommand) command).CommandText = "SELECT idServicio as 'idCompra', 'SERVICIO' as 'tipoDocumentoCompra', folioServicio AS 'folio', fechaIngreso as 'fechaEmision', rut, digito, razonSocial, total AS 'totalCobrar', estadoPago, totalPagado, totalPendiente, totalDocumentado FROM servicio\r\n                                    WHERE DATE_FORMAT(fechaIngreso, '%Y-%m-%d') >= DATE_FORMAT(@desde2, '%Y-%m-%d') AND DATE_FORMAT(fechaIngreso, '%Y-%m-%d') <= DATE_FORMAT(@hasta2, '%Y-%m-%d') " + str3 + str1 + str4 + " ORDER BY fechaIngreso DESC";
+        ((DbCommand) command).CommandText = "SELECT idServicio as 'idCompra', 'SERVICIO' as 'tipoDocumentoCompra', folioServicio AS 'folio', fechaIngreso as 'fechaEmision', rut, digito, razonSocial, total AS 'totalCobrar', estadoPago, totalPagado, totalPendiente, totalDocumentado FROM servicio WHERE DATE_FORMAT(fechaIngreso, '%Y-%m-%d') >= DATE_FORMAT(@desde2, '%Y-%m-%d') AND DATE_FORMAT(fechaIngreso, '%Y-%m-%d') <= DATE_FORMAT(@hasta2, '%Y-%m-%d') " + str3 + str1 + str4 + " ORDER BY fechaIngreso DESC";
         command.Parameters.AddWithValue("@desde2", (object) desde);
         command.Parameters.AddWithValue("@hasta2", (object) hasta);
         ((DbDataAdapter) new MySqlDataAdapter(command)).Fill(dataTable1);

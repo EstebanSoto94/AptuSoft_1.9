@@ -408,6 +408,7 @@ namespace Aptusoft
             this.button1.TabIndex = 0;
             this.button1.Text = "Configuracion De Sincronizacion";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgvDatos
@@ -784,6 +785,7 @@ namespace Aptusoft
             this.BtnPreciosOdepa.TabIndex = 27;
             this.BtnPreciosOdepa.Text = "Precios ODEPA";
             this.BtnPreciosOdepa.UseVisualStyleBackColor = true;
+            this.BtnPreciosOdepa.Visible = false;
             this.BtnPreciosOdepa.Click += new System.EventHandler(this.BtnPreciosOdepa_Click);
             // 
             // frmOpciones2

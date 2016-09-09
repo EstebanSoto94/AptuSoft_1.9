@@ -3546,6 +3546,7 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.label32 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnEnviar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtTotalExento = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -3638,7 +3639,6 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.btnComprobarFolio = new System.Windows.Forms.Button();
             this.chkHistoricoVentas = new System.Windows.Forms.CheckBox();
             this.btnCreaPdf = new System.Windows.Forms.Button();
-            this.btnEnviar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.gbZonaCliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosVenta)).BeginInit();
@@ -4479,6 +4479,21 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.tabPage1.Size = new System.Drawing.Size(880, 155);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Principal";
+            // 
+            // btnEnviar
+            // 
+            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviar.Image = global::Aptusoft.Properties.Resources.send_mail_icone_9097_48;
+            this.btnEnviar.Location = new System.Drawing.Point(367, 58);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(70, 70);
+            this.btnEnviar.TabIndex = 38;
+            this.btnEnviar.Text = "Envío a Cliente";
+            this.btnEnviar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEnviar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Visible = false;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // panel2
             // 
@@ -5500,20 +5515,6 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.btnCreaPdf.UseVisualStyleBackColor = true;
             this.btnCreaPdf.Visible = false;
             this.btnCreaPdf.Click += new System.EventHandler(this.btnCreaPdf_Click);
-            // 
-            // btnEnviar
-            // 
-            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Image = global::Aptusoft.Properties.Resources.send_mail_icone_9097_48;
-            this.btnEnviar.Location = new System.Drawing.Point(367, 58);
-            this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(70, 70);
-            this.btnEnviar.TabIndex = 38;
-            this.btnEnviar.Text = "Envío a Cliente";
-            this.btnEnviar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEnviar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnEnviar.UseVisualStyleBackColor = true;
-            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // frmNotaDebitoElectronica
             // 

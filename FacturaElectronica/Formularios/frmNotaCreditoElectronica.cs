@@ -3643,11 +3643,11 @@ namespace Aptusoft.FacturaElectronica.Formularios
     private void InitializeComponent()
     {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarProductosTeclaF4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -3727,6 +3727,7 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.label32 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnEnviar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -3811,7 +3812,6 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.btnComprobarFolio = new System.Windows.Forms.Button();
             this.chkHistoricoVentas = new System.Windows.Forms.CheckBox();
             this.btnCreaPdf = new System.Windows.Forms.Button();
-            this.btnEnviar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.gbZonaCliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosVenta)).BeginInit();
@@ -4491,21 +4491,21 @@ namespace Aptusoft.FacturaElectronica.Formularios
             // 
             this.dgvDatosVenta.AllowUserToAddRows = false;
             this.dgvDatosVenta.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.Lavender;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dgvDatosVenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Lavender;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dgvDatosVenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDatosVenta.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.dgvDatosVenta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvDatosVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDatosVenta.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDatosVenta.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDatosVenta.Location = new System.Drawing.Point(11, 219);
             this.dgvDatosVenta.MultiSelect = false;
             this.dgvDatosVenta.Name = "dgvDatosVenta";
@@ -4633,18 +4633,18 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.dgvBuscaCliente.AllowUserToDeleteRows = false;
             this.dgvBuscaCliente.AllowUserToResizeColumns = false;
             this.dgvBuscaCliente.AllowUserToResizeRows = false;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.Lavender;
-            this.dgvBuscaCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Lavender;
+            this.dgvBuscaCliente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvBuscaCliente.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
             this.dgvBuscaCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBuscaCliente.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBuscaCliente.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvBuscaCliente.Location = new System.Drawing.Point(1, 1);
             this.dgvBuscaCliente.Name = "dgvBuscaCliente";
             this.dgvBuscaCliente.ReadOnly = true;
@@ -4753,6 +4753,21 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.tabPage1.Size = new System.Drawing.Size(880, 155);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Principal";
+            // 
+            // btnEnviar
+            // 
+            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviar.Image = global::Aptusoft.Properties.Resources.send_mail_icone_9097_48;
+            this.btnEnviar.Location = new System.Drawing.Point(367, 59);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(70, 70);
+            this.btnEnviar.TabIndex = 36;
+            this.btnEnviar.Text = "Envío a Cliente";
+            this.btnEnviar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEnviar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Visible = false;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // panel1
             // 
@@ -5347,9 +5362,9 @@ namespace Aptusoft.FacturaElectronica.Formularios
             // FechaDocumentoReferencia
             // 
             this.FechaDocumentoReferencia.DataPropertyName = "FechaDocumentoReferencia";
-            dataGridViewCellStyle15.Format = "d";
-            dataGridViewCellStyle15.NullValue = null;
-            this.FechaDocumentoReferencia.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle5.Format = "d";
+            dataGridViewCellStyle5.NullValue = null;
+            this.FechaDocumentoReferencia.DefaultCellStyle = dataGridViewCellStyle5;
             this.FechaDocumentoReferencia.HeaderText = "Fecha";
             this.FechaDocumentoReferencia.Name = "FechaDocumentoReferencia";
             this.FechaDocumentoReferencia.ReadOnly = true;
@@ -5669,20 +5684,6 @@ namespace Aptusoft.FacturaElectronica.Formularios
             this.btnCreaPdf.Text = "Crea Pdf";
             this.btnCreaPdf.UseVisualStyleBackColor = true;
             this.btnCreaPdf.Click += new System.EventHandler(this.btnCreaPdf_Click);
-            // 
-            // btnEnviar
-            // 
-            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Image = global::Aptusoft.Properties.Resources.send_mail_icone_9097_48;
-            this.btnEnviar.Location = new System.Drawing.Point(367, 59);
-            this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(70, 70);
-            this.btnEnviar.TabIndex = 36;
-            this.btnEnviar.Text = "Envío a Cliente";
-            this.btnEnviar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEnviar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnEnviar.UseVisualStyleBackColor = true;
-            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // frmNotaCreditoElectronica
             // 

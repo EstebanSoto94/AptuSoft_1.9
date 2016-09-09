@@ -318,6 +318,7 @@
     <Compile Include="Odepa.cs" />
     <Compile Include="OdepaVO.cs" />
     <Compile Include="respaldo_xml_config.cs" />
+    <Compile Include="TecnicoVO.cs" />
     <Compile Include="validarDatosEmisor.cs" />
     <Compile Include="frmPagoVenta.cs">
       <SubType>Form</SubType>

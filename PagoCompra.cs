@@ -31,9 +31,9 @@ namespace Aptusoft
       }
       try
       {
-        if (tipoDoc.Equals("FACTURA COMPRA") || tipoDoc.Equals("FACTURA ELECTRONICA"))
+        //if (tipoDoc.Equals("FACTURA COMPRA") || tipoDoc.Equals("FACTURA ELECTRONICA"))
           this.cambiaEstadoDocumentoCompra(idDoc, folio, estadoPago, tPagado, tDocumentado, tPendiente);
-        if (tipoDoc.Equals("SERVICIO"))
+        //if (tipoDoc.Equals("SERVICIO"))
           this.cambiaEstadoDocumentoServicio(idDoc, folio, estadoPago, tPagado, tDocumentado, tPendiente);
       }
       catch (Exception ex)

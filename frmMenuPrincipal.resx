@@ -136,17 +136,17 @@
   <data name="inventarioToolStripMenuItem.Text" xml:space="preserve">
     <value>Inventario</value>
   </data>
-  <data name="opcionesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="opcionesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Opciones</value>
-  </data>
   <data name="impuestosEspecialesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
   <data name="impuestosEspecialesToolStripMenuItem.Text" xml:space="preserve">
     <value>Impuestos Especiales</value>
+  </data>
+  <data name="opcionesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="opcionesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Opciones</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 20</value>
@@ -157,115 +157,6 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="ventaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
-  </data>
-  <data name="ventaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ventas</value>
-  </data>
-  <data name="comprasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 20</value>
-  </data>
-  <data name="comprasToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Compras</value>
-  </data>
-  <data name="inventarioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 20</value>
-  </data>
-  <data name="inventarioToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Inventario</value>
-  </data>
-  <data name="ordenDeTrabajoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 20</value>
-  </data>
-  <data name="ordenDeTrabajoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Orden de Trabajo</value>
-  </data>
-  <data name="atenciónClientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 20</value>
-  </data>
-  <data name="atenciónClientesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Atención Clientes</value>
-  </data>
-  <data name="electronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 20</value>
-  </data>
-  <data name="electronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Electronica</value>
-  </data>
-  <data name="restaurantToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="restaurantToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
-  </data>
-  <data name="restaurantToolStripMenuItem.Text" xml:space="preserve">
-    <value>Restaurant</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="restaurantToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="opcionesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="opcionesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Opciones</value>
-  </data>
-  <data name="maquinariaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="maquinariaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Maquinaria</value>
-  </data>
-  <data name="estadosDeMaquinariaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="estadosDeMaquinariaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Estados de Maquinarias</value>
-  </data>
-  <data name="arriendosDeMaquinariaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
-  </data>
-  <data name="arriendosDeMaquinariaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Arriendos de Maquinaria</value>
-  </data>
-  <data name="extrasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
-  </data>
-  <data name="extrasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Extras</value>
-  </data>
-  <data name="salirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 20</value>
-  </data>
-  <data name="salirToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Salir</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1190, 24</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="clientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
@@ -278,23 +169,11 @@
   <data name="cuentaCorrienteToolStripMenuItem.Text" xml:space="preserve">
     <value>Cuenta Corriente</value>
   </data>
-  <data name="facturaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 22</value>
-  </data>
-  <data name="facturaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Factura</value>
-  </data>
   <data name="facturaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 22</value>
   </data>
   <data name="facturaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Factura</value>
-  </data>
-  <data name="informesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeFacturasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>461, 22</value>
@@ -380,23 +259,23 @@
   <data name="visualizarFacturaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Factura</value>
   </data>
-  <data name="facturaExentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="facturaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="facturaExentaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Factura Exenta</value>
+  <data name="facturaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Factura</value>
   </data>
   <data name="fToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
   </data>
   <data name="fToolStripMenuItem.Text" xml:space="preserve">
     <value>Factura Exenta</value>
-  </data>
-  <data name="informesToolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem12.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeFacturasExentasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>461, 22</value>
@@ -446,11 +325,17 @@
   <data name="visualizarFacturaExentaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Factura Exenta</value>
   </data>
-  <data name="boletasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem12.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="facturaExentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="boletasToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Boleta</value>
+  <data name="facturaExentaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Factura Exenta</value>
   </data>
   <data name="boletaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
@@ -464,14 +349,9 @@
   <data name="devoluciónDeProductosToolStripMenuItem.Text" xml:space="preserve">
     <value>Devolución de Productos</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="devoluciónDeProductosToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="informesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeBoletasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>517, 22</value>
@@ -527,11 +407,11 @@
   <data name="visualizarBoletaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Boleta</value>
   </data>
-  <data name="toolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
-  <data name="toolStripMenuItem26.Text" xml:space="preserve">
-    <value>Informes POS</value>
+  <data name="informesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Informes</value>
   </data>
   <data name="toolStripMenuItem27.Size" type="System.Drawing.Size, System.Drawing">
     <value>511, 22</value>
@@ -581,11 +461,11 @@
   <data name="toolStripMenuItem34.Text" xml:space="preserve">
     <value>Listado de Articulos Vendidos con Ticket y su Rentabilidad, Según Fecha</value>
   </data>
-  <data name="ingresosManualesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
-  <data name="ingresosManualesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ingresos Manuales</value>
+  <data name="toolStripMenuItem26.Text" xml:space="preserve">
+    <value>Informes POS</value>
   </data>
   <data name="ingresoBoletasManualesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 22</value>
@@ -593,35 +473,35 @@
   <data name="ingresoBoletasManualesToolStripMenuItem.Text" xml:space="preserve">
     <value>Ingreso Boletas Manuales</value>
   </data>
-  <data name="informesToolStripMenuItem28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem28.Text" xml:space="preserve">
-    <value>informe</value>
-  </data>
   <data name="listadoDeBoletasIngresadasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 22</value>
   </data>
   <data name="listadoDeBoletasIngresadasToolStripMenuItem.Text" xml:space="preserve">
     <value>Listado de Boletas Manuales Ordenada Por Fecha</value>
   </data>
-  <data name="boletaFiscalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem28.Text" xml:space="preserve">
+    <value>informe</value>
+  </data>
+  <data name="ingresosManualesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="ingresosManualesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ingresos Manuales</value>
+  </data>
+  <data name="boletasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="boletaFiscalToolStripMenuItem.Text" xml:space="preserve">
-    <value>Boleta Fiscal</value>
+  <data name="boletasToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Boleta</value>
   </data>
   <data name="boletaFiscalToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 22</value>
   </data>
   <data name="boletaFiscalToolStripMenuItem1.Text" xml:space="preserve">
     <value>Boleta Fiscal</value>
-  </data>
-  <data name="informesToolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem13.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeBoletasFiscalesSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>560, 22</value>
@@ -665,11 +545,17 @@
   <data name="visualizarBoletaFiscalToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Boleta Fiscal</value>
   </data>
-  <data name="devolucionDeProductosConBoletasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem13.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="boletaFiscalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="devolucionDeProductosConBoletasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Devolucion de Productos Con Boletas</value>
+  <data name="boletaFiscalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Boleta Fiscal</value>
   </data>
   <data name="devolucionDeProductosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
@@ -677,35 +563,29 @@
   <data name="devolucionDeProductosToolStripMenuItem.Text" xml:space="preserve">
     <value>Devolucion de Productos</value>
   </data>
-  <data name="informesToolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem18.Text" xml:space="preserve">
-    <value>Informes</value>
-  </data>
   <data name="listadoDeDevolucionesSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 22</value>
   </data>
   <data name="listadoDeDevolucionesSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
     <value>Listado de Devoluciones, Según Fecha</value>
   </data>
-  <data name="guiasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem18.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="devolucionDeProductosConBoletasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="guiasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Guia de Despacho</value>
+  <data name="devolucionDeProductosConBoletasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devolucion de Productos Con Boletas</value>
   </data>
   <data name="guiaDeDespachoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 22</value>
   </data>
   <data name="guiaDeDespachoToolStripMenuItem.Text" xml:space="preserve">
     <value>Guia de Despacho</value>
-  </data>
-  <data name="informesToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem4.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeGuiasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>373, 22</value>
@@ -761,23 +641,23 @@
   <data name="visualizarGuiaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Guia</value>
   </data>
-  <data name="notasDeCreditoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem4.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="guiasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="notasDeCreditoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nota de Credito</value>
+  <data name="guiasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Guia de Despacho</value>
   </data>
   <data name="notaDeCreditoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 22</value>
   </data>
   <data name="notaDeCreditoToolStripMenuItem.Text" xml:space="preserve">
     <value>Nota de Credito</value>
-  </data>
-  <data name="informesToolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem6.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeNotasDeCreditoSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>403, 22</value>
@@ -809,23 +689,23 @@
   <data name="visualizarNotaDeCreditoToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Nota de Credito</value>
   </data>
-  <data name="cotizacionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem6.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="notasDeCreditoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="cotizacionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cotizacion</value>
+  <data name="notasDeCreditoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nota de Credito</value>
   </data>
   <data name="cotizacionToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 22</value>
   </data>
   <data name="cotizacionToolStripMenuItem1.Text" xml:space="preserve">
     <value>Cotizacion</value>
-  </data>
-  <data name="informesToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem3.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeCotizacionesSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>346, 22</value>
@@ -863,23 +743,23 @@
   <data name="detalleDeCotizacionesPendientesDeFacturarToolStripMenuItem.Text" xml:space="preserve">
     <value>Detalle de Cotizaciones pendientes de Facturar</value>
   </data>
-  <data name="ticketToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem3.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="cotizacionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="ticketToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ticket</value>
+  <data name="cotizacionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cotizacion</value>
   </data>
   <data name="ticketToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 22</value>
   </data>
   <data name="ticketToolStripMenuItem1.Text" xml:space="preserve">
     <value>Ticket</value>
-  </data>
-  <data name="informesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeTicketsSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>319, 22</value>
@@ -911,23 +791,23 @@
   <data name="visualizarTicketToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Ticket</value>
   </data>
-  <data name="notaDeVentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="ticketToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="notaDeVentaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nota de Venta</value>
+  <data name="ticketToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ticket</value>
   </data>
   <data name="notaDeVenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
   </data>
   <data name="notaDeVenToolStripMenuItem.Text" xml:space="preserve">
     <value>Nota de Venta</value>
-  </data>
-  <data name="informesToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem5.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeNotasDeVentasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>475, 22</value>
@@ -995,14 +875,20 @@
   <data name="visualizarNotaDeVentaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Nota de Venta</value>
   </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 6</value>
+  <data name="informesToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
   </data>
-  <data name="controlDeCajaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem5.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="notaDeVentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="controlDeCajaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Control de Caja</value>
+  <data name="notaDeVentaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nota de Venta</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 6</value>
   </data>
   <data name="controlDeCajaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 22</value>
@@ -1010,17 +896,23 @@
   <data name="controlDeCajaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Control de Caja</value>
   </data>
+  <data name="listadoDeControlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="listadoDeControlToolStripMenuItem.Text" xml:space="preserve">
+    <value>Listado de Movientos de Caja, Según Fecha</value>
+  </data>
   <data name="informesToolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 22</value>
   </data>
   <data name="informesToolStripMenuItem10.Text" xml:space="preserve">
     <value>Informes</value>
   </data>
-  <data name="listadoDeControlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 22</value>
+  <data name="controlDeCajaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
   </data>
-  <data name="listadoDeControlToolStripMenuItem.Text" xml:space="preserve">
-    <value>Listado de Movientos de Caja, Según Fecha</value>
+  <data name="controlDeCajaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Control de Caja</value>
   </data>
   <data name="moduloFiscalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
@@ -1030,12 +922,6 @@
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 6</value>
-  </data>
-  <data name="informesGToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 22</value>
-  </data>
-  <data name="informesGToolStripMenuItem.Text" xml:space="preserve">
-    <value>Informes Generales</value>
   </data>
   <data name="cierreDeDiaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>573, 22</value>
@@ -1118,11 +1004,11 @@
   <data name="listadosDeArticulosVendidosPorRubroSegúnFechaToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="pagosDeVentasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesGToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 22</value>
   </data>
-  <data name="pagosDeVentasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Informes de Pagos de Ventas</value>
+  <data name="informesGToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informes Generales</value>
   </data>
   <data name="documentosPorCobrarSegúnFechaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>401, 22</value>
@@ -1154,29 +1040,29 @@
   <data name="detalleDeClientesMorososToolStripMenuItem.Text" xml:space="preserve">
     <value>Detalle de Clientes Morosos</value>
   </data>
+  <data name="pagosDeVentasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="pagosDeVentasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informes de Pagos de Ventas</value>
+  </data>
+  <data name="ventaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="ventaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ventas</value>
+  </data>
   <data name="proveedoresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
   <data name="proveedoresToolStripMenuItem.Text" xml:space="preserve">
     <value>Proveedores</value>
   </data>
-  <data name="ingresoDeComprasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 22</value>
-  </data>
-  <data name="ingresoDeComprasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ingreso de Compras</value>
-  </data>
   <data name="ingresoDeComprasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="ingresoDeComprasToolStripMenuItem1.Text" xml:space="preserve">
     <value>Ingreso de Compras</value>
-  </data>
-  <data name="informesToolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem8.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeComprasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>437, 22</value>
@@ -1232,23 +1118,23 @@
   <data name="libroDeComprasSegúnPeriodoContableToolStripMenuItem.Text" xml:space="preserve">
     <value>Libro de Compras, Según Periodo Contable</value>
   </data>
-  <data name="ordenDeComprasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem8.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="ingresoDeComprasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
-  <data name="ordenDeComprasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Orden de Compras</value>
+  <data name="ingresoDeComprasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ingreso de Compras</value>
   </data>
   <data name="ordenDeCompraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 22</value>
   </data>
   <data name="ordenDeCompraToolStripMenuItem.Text" xml:space="preserve">
     <value>Orden de Compra</value>
-  </data>
-  <data name="informesToolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem9.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoOrdenesDeCompraSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>404, 22</value>
@@ -1274,11 +1160,17 @@
   <data name="visualizarOrdenDeCompraToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Orden de Compra</value>
   </data>
-  <data name="ingresoDeServiciosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem9.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="ordenDeComprasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
-  <data name="ingresoDeServiciosToolStripMenuItem.Text" xml:space="preserve">
-    <value>Gastos de Servicios</value>
+  <data name="ordenDeComprasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Orden de Compras</value>
   </data>
   <data name="ingresoDeGastosDeServiciosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
@@ -1286,26 +1178,26 @@
   <data name="ingresoDeGastosDeServiciosToolStripMenuItem.Text" xml:space="preserve">
     <value>Ingreso de Gastos de Servicios</value>
   </data>
-  <data name="informesToolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem14.Text" xml:space="preserve">
-    <value>Informes</value>
-  </data>
   <data name="listadoDeGastosSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>242, 22</value>
   </data>
   <data name="listadoDeGastosSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
     <value>Listado de Gastos,  Según Fecha</value>
   </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 6</value>
+  <data name="informesToolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
   </data>
-  <data name="informesDePagosDeComprasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem14.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="ingresoDeServiciosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
-  <data name="informesDePagosDeComprasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Informes de Pagos de Compras</value>
+  <data name="ingresoDeServiciosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gastos de Servicios</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 6</value>
   </data>
   <data name="documentosSegunFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>312, 22</value>
@@ -1325,6 +1217,18 @@
   <data name="detalleDePagosPorProveedorSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
     <value>Detalle de Pagos por Proveedor, Según Fecha</value>
   </data>
+  <data name="informesDePagosDeComprasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="informesDePagosDeComprasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informes de Pagos de Compras</value>
+  </data>
+  <data name="comprasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="comprasToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Compras</value>
+  </data>
   <data name="productosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 22</value>
   </data>
@@ -1343,12 +1247,6 @@
   <data name="unidadDeMedidaToolStripMenuItem.Text" xml:space="preserve">
     <value>Unidad de Medida</value>
   </data>
-  <data name="kitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 22</value>
-  </data>
-  <data name="kitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kit</value>
-  </data>
   <data name="crearKitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
   </data>
@@ -1360,12 +1258,6 @@
   </data>
   <data name="armarKitToolStripMenuItem.Text" xml:space="preserve">
     <value>Armar Kit</value>
-  </data>
-  <data name="informesToolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem11.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="visualizaFormulaDeKitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 22</value>
@@ -1379,23 +1271,23 @@
   <data name="detalleDeKitArmadosSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
     <value>Detalle de Kit Armados, Según Fecha</value>
   </data>
-  <data name="traspasoInternoEntreBodegasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem11.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="kitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 22</value>
   </data>
-  <data name="traspasoInternoEntreBodegasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Traspaso Interno entre Bodegas</value>
+  <data name="kitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kit</value>
   </data>
   <data name="traspasosInternosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
   </data>
   <data name="traspasosInternosToolStripMenuItem.Text" xml:space="preserve">
     <value>Traspasos Internos</value>
-  </data>
-  <data name="informesToolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem15.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeTraspasosSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 22</value>
@@ -1409,20 +1301,23 @@
   <data name="detalleDeTraspasosSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
     <value>Detalle de Traspasos, Según Fecha</value>
   </data>
+  <data name="informesToolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem15.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="traspasoInternoEntreBodegasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="traspasoInternoEntreBodegasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Traspaso Interno entre Bodegas</value>
+  </data>
   <data name="mantenedorDeProductosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 22</value>
   </data>
   <data name="mantenedorDeProductosToolStripMenuItem.Text" xml:space="preserve">
     <value>Mantenedor de Productos</value>
-  </data>
-  <data name="mantenedorDePromocionesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 22</value>
-  </data>
-  <data name="mantenedorDePromocionesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Promociones</value>
-  </data>
-  <data name="mantenedorDePromocionesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="mantenedorDePromocionesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 22</value>
@@ -1436,11 +1331,14 @@
   <data name="informesToolStripMenuItem20.Text" xml:space="preserve">
     <value>Informes</value>
   </data>
-  <data name="tomaDeInventarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mantenedorDePromocionesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 22</value>
   </data>
-  <data name="tomaDeInventarioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Toma de Inventario</value>
+  <data name="mantenedorDePromocionesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Promociones</value>
+  </data>
+  <data name="mantenedorDePromocionesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tomaDeInventarioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 22</value>
@@ -1448,26 +1346,26 @@
   <data name="tomaDeInventarioToolStripMenuItem1.Text" xml:space="preserve">
     <value>Toma de Inventario</value>
   </data>
-  <data name="informesToolStripMenuItem27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem27.Text" xml:space="preserve">
-    <value>Informes</value>
-  </data>
   <data name="listadoDeTomaDeInventarioSegunFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 22</value>
   </data>
   <data name="listadoDeTomaDeInventarioSegunFechaToolStripMenuItem.Text" xml:space="preserve">
     <value>Listado de Toma de Inventario, segun fecha</value>
   </data>
-  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 6</value>
+  <data name="informesToolStripMenuItem27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
   </data>
-  <data name="informesToolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem27.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="tomaDeInventarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 22</value>
   </data>
-  <data name="informesToolStripMenuItem7.Text" xml:space="preserve">
-    <value>Informes</value>
+  <data name="tomaDeInventarioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Toma de Inventario</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 6</value>
   </data>
   <data name="existenciasPorBodegaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>317, 22</value>
@@ -1562,6 +1460,18 @@
   <data name="valorizacionDeExistenciaToolStripMenuItem.Text" xml:space="preserve">
     <value>Valorizacion De Existencia</value>
   </data>
+  <data name="informesToolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem7.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="inventarioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="inventarioToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
   <data name="ordenDeTrabajoToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
@@ -1574,17 +1484,23 @@
   <data name="tecnicosToolStripMenuItem.Text" xml:space="preserve">
     <value>Técnicos</value>
   </data>
+  <data name="listadoDeOTSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="listadoDeOTSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Listado de OT, Según Fecha</value>
+  </data>
   <data name="informesToolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
   </data>
   <data name="informesToolStripMenuItem16.Text" xml:space="preserve">
     <value>Informes</value>
   </data>
-  <data name="listadoDeOTSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+  <data name="ordenDeTrabajoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
   </data>
-  <data name="listadoDeOTSegúnFechaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Listado de OT, Según Fecha</value>
+  <data name="ordenDeTrabajoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Orden de Trabajo</value>
   </data>
   <data name="ordenDeAtenciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
@@ -1604,12 +1520,6 @@
   <data name="preVentaToolStripMenuItem.Text" xml:space="preserve">
     <value>Pre-Venta</value>
   </data>
-  <data name="moduloFacturacionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="moduloFacturacionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Modulo Facturacion</value>
-  </data>
   <data name="moduloFacturacionToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 22</value>
   </data>
@@ -1628,6 +1538,18 @@
   <data name="moduloDeContratacionToolStripMenuItem.Text" xml:space="preserve">
     <value>Modulo de Contratacion</value>
   </data>
+  <data name="moduloFacturacionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="moduloFacturacionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modulo Facturacion</value>
+  </data>
+  <data name="atenciónClientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="atenciónClientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Atención Clientes</value>
+  </data>
   <data name="cAFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
@@ -1637,23 +1559,11 @@
   <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
   </data>
-  <data name="facturaElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="facturaElectronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Factura Electronica</value>
-  </data>
   <data name="facturaElectronicaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 22</value>
   </data>
   <data name="facturaElectronicaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Factura Electronica</value>
-  </data>
-  <data name="informesToolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem19.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeFacturasSegúnFechaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>431, 22</value>
@@ -1697,23 +1607,23 @@
   <data name="visualizarFacturaElectronicaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Factura Electronica</value>
   </data>
-  <data name="facturaExentaElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem19.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="facturaElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="facturaExentaElectronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Factura Exenta Electronica</value>
+  <data name="facturaElectronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Factura Electronica</value>
   </data>
   <data name="facturaExentaElectronicaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="facturaExentaElectronicaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Factura Exenta Electronica</value>
-  </data>
-  <data name="informesToolStripMenuItem24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem24.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>469, 22</value>
@@ -1757,23 +1667,23 @@
   <data name="toolStripMenuItem7.Text" xml:space="preserve">
     <value>Visualizar Factura Exenta Electronica</value>
   </data>
-  <data name="notaDeCreditoElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem24.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="facturaExentaElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="notaDeCreditoElectronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nota de Credito Electronica</value>
+  <data name="facturaExentaElectronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Factura Exenta Electronica</value>
   </data>
   <data name="notaDeCreditoElectronicaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
   </data>
   <data name="notaDeCreditoElectronicaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Nota de Credito Electronica</value>
-  </data>
-  <data name="informesToolStripMenuItem21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem21.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeNotasDeCreditoElectronicasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>472, 22</value>
@@ -1805,23 +1715,23 @@
   <data name="visualizarNotaDeCreditoElectronicaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Nota de Credito Electronica</value>
   </data>
-  <data name="notaDeDebitoElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem21.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="notaDeCreditoElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="notaDeDebitoElectronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nota de Debito Electronica</value>
+  <data name="notaDeCreditoElectronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nota de Credito Electronica</value>
   </data>
   <data name="notaDeDebitoElectronicaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 22</value>
   </data>
   <data name="notaDeDebitoElectronicaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Nota de DebitoElectronica</value>
-  </data>
-  <data name="informesToolStripMenuItem22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem22.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeNotasDeDebitoElectronicasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>468, 22</value>
@@ -1853,23 +1763,23 @@
   <data name="visualizarNotaDeDebitoElectronicaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Nota de Debito Electronica</value>
   </data>
-  <data name="guiaDeDespachoElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem22.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="notaDeDebitoElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="guiaDeDespachoElectronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Guia de Despacho Electronica</value>
+  <data name="notaDeDebitoElectronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nota de Debito Electronica</value>
   </data>
   <data name="guiaDeDespachoElectronicaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
   <data name="guiaDeDespachoElectronicaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Guia de Despacho Electronica</value>
-  </data>
-  <data name="informesToolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem23.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="listadoDeGuiasElectronicasSegúnFechaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>412, 22</value>
@@ -1907,23 +1817,23 @@
   <data name="visualizarGuiasElectronicaToolStripMenuItem.Text" xml:space="preserve">
     <value>Visualizar Guias Electronica</value>
   </data>
-  <data name="boletaElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="boletaElectronicaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Boleta Electronica</value>
+  <data name="informesToolStripMenuItem23.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="guiaDeDespachoElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="guiaDeDespachoElectronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Guia de Despacho Electronica</value>
   </data>
   <data name="boletaElectronicaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 22</value>
   </data>
   <data name="boletaElectronicaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Boleta Electronica</value>
-  </data>
-  <data name="informesToolStripMenuItem25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem25.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
     <value>517, 22</value>
@@ -1979,26 +1889,23 @@
   <data name="toolStripMenuItem16.Text" xml:space="preserve">
     <value>Visualizar Boleta</value>
   </data>
-  <data name="boletaElectronicaExentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="informesToolStripMenuItem25.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="boletaElectronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="boletaElectronicaExentaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Boleta Electronica Exenta</value>
-  </data>
-  <data name="boletaElectronicaExentaToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="boletaElectronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Boleta Electronica</value>
   </data>
   <data name="boletaElectronicaExentaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 22</value>
   </data>
   <data name="boletaElectronicaExentaToolStripMenuItem1.Text" xml:space="preserve">
     <value>Boleta Electronica Exenta</value>
-  </data>
-  <data name="informesToolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
-  </data>
-  <data name="informesToolStripMenuItem26.Text" xml:space="preserve">
-    <value>Informes</value>
   </data>
   <data name="toolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
     <value>517, 22</value>
@@ -2054,20 +1961,35 @@
   <data name="toolStripMenuItem25.Text" xml:space="preserve">
     <value>Visualizar Boleta</value>
   </data>
-  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 6</value>
+  <data name="informesToolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
   </data>
-  <data name="comprasElectronicasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="informesToolStripMenuItem26.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="boletaElectronicaExentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
-  <data name="comprasElectronicasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Compras Electronicas</value>
+  <data name="boletaElectronicaExentaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Boleta Electronica Exenta</value>
+  </data>
+  <data name="boletaElectronicaExentaToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 6</value>
   </data>
   <data name="intercambioDeInformacionToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="intercambioDeInformacionToolStripMenuItem1.Text" xml:space="preserve">
     <value>Intercambio de Informacion</value>
+  </data>
+  <data name="comprasElectronicasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="comprasElectronicasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Compras Electronicas</value>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -2096,6 +2018,12 @@
   <data name="opcionesLocalesToolStripMenuItem.Text" xml:space="preserve">
     <value>Opciones Locales</value>
   </data>
+  <data name="electronicaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="electronicaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Electronica</value>
+  </data>
   <data name="garzonesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
@@ -2114,17 +2042,29 @@
   <data name="configuracionBotonesComandaToolStripMenuItem.Text" xml:space="preserve">
     <value>Configuracion Botones Comanda</value>
   </data>
+  <data name="listadoDeComandasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="listadoDeComandasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Listado de Comandas, Ségun Fechas</value>
+  </data>
   <data name="informesToolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="informesToolStripMenuItem17.Text" xml:space="preserve">
     <value>Informes</value>
   </data>
-  <data name="listadoDeComandasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 22</value>
+  <data name="restaurantToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
-  <data name="listadoDeComandasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Listado de Comandas, Ségun Fechas</value>
+  <data name="restaurantToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="restaurantToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restaurant</value>
+  </data>
+  <data name="restaurantToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="impuestosEspecialesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 22</value>
@@ -2243,146 +2183,68 @@
   <data name="generadorDeCodigosDeBarraToolStripMenuItem.Text" xml:space="preserve">
     <value>Generador De Codigos De Barra</value>
   </data>
-  <data name="&gt;&gt;btnBoletaFiscal.Name" xml:space="preserve">
-    <value>btnBoletaFiscal</value>
+  <data name="opcionesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
   </data>
-  <data name="&gt;&gt;btnBoletaFiscal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="opcionesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Opciones</value>
   </data>
-  <data name="&gt;&gt;btnBoletaFiscal.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
+  <data name="maquinariaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 22</value>
   </data>
-  <data name="&gt;&gt;btnBoletaFiscal.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="maquinariaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Maquinaria</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="estadosDeMaquinariaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 22</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="estadosDeMaquinariaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Estados de Maquinarias</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
+  <data name="arriendosDeMaquinariaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="arriendosDeMaquinariaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arriendos de Maquinaria</value>
   </data>
-  <data name="&gt;&gt;btnPagosVentas.Name" xml:space="preserve">
-    <value>btnPagosVentas</value>
+  <data name="extrasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
   </data>
-  <data name="&gt;&gt;btnPagosVentas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="extrasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Extras</value>
   </data>
-  <data name="&gt;&gt;btnPagosVentas.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
+  <data name="extrasToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;btnPagosVentas.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="salirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
   </data>
-  <data name="&gt;&gt;btnFactura.Name" xml:space="preserve">
-    <value>btnFactura</value>
+  <data name="salirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Salir</value>
   </data>
-  <data name="&gt;&gt;btnFactura.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;btnFactura.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1190, 24</value>
   </data>
-  <data name="&gt;&gt;btnFactura.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnCliente.Name" xml:space="preserve">
-    <value>btnCliente</value>
-  </data>
-  <data name="&gt;&gt;btnCliente.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCliente.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
-  </data>
-  <data name="&gt;&gt;btnCliente.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnNotaVenta.Name" xml:space="preserve">
-    <value>btnNotaVenta</value>
-  </data>
-  <data name="&gt;&gt;btnNotaVenta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNotaVenta.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
-  </data>
-  <data name="&gt;&gt;btnNotaVenta.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnGuia.Name" xml:space="preserve">
-    <value>btnGuia</value>
-  </data>
-  <data name="&gt;&gt;btnGuia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGuia.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
-  </data>
-  <data name="&gt;&gt;btnGuia.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnTicket.Name" xml:space="preserve">
-    <value>btnTicket</value>
-  </data>
-  <data name="&gt;&gt;btnTicket.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTicket.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
-  </data>
-  <data name="&gt;&gt;btnTicket.ZOrder" xml:space="preserve">
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;btnCotizacion.Name" xml:space="preserve">
-    <value>btnCotizacion</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;btnCotizacion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;btnCotizacion.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnCotizacion.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnBoleta.Name" xml:space="preserve">
-    <value>btnBoleta</value>
-  </data>
-  <data name="&gt;&gt;btnBoleta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnBoleta.Parent" xml:space="preserve">
-    <value>pnlVenta</value>
-  </data>
-  <data name="&gt;&gt;btnBoleta.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="pnlVenta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 47</value>
-  </data>
-  <data name="pnlVenta.Size" type="System.Drawing.Size, System.Drawing">
-    <value>818, 395</value>
-  </data>
-  <data name="pnlVenta.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;pnlVenta.Name" xml:space="preserve">
-    <value>pnlVenta</value>
-  </data>
-  <data name="&gt;&gt;pnlVenta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlVenta.Parent" xml:space="preserve">
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlVenta.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="btnBoletaFiscal.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5088,89 +4950,26 @@
   <data name="&gt;&gt;btnBoleta.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>pnlCompra</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnPagoCompras.Name" xml:space="preserve">
-    <value>btnPagoCompras</value>
-  </data>
-  <data name="&gt;&gt;btnPagoCompras.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPagoCompras.Parent" xml:space="preserve">
-    <value>pnlCompra</value>
-  </data>
-  <data name="&gt;&gt;btnPagoCompras.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnOrdenCompra.Name" xml:space="preserve">
-    <value>btnOrdenCompra</value>
-  </data>
-  <data name="&gt;&gt;btnOrdenCompra.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnOrdenCompra.Parent" xml:space="preserve">
-    <value>pnlCompra</value>
-  </data>
-  <data name="&gt;&gt;btnOrdenCompra.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnProveedor.Name" xml:space="preserve">
-    <value>btnProveedor</value>
-  </data>
-  <data name="&gt;&gt;btnProveedor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnProveedor.Parent" xml:space="preserve">
-    <value>pnlCompra</value>
-  </data>
-  <data name="&gt;&gt;btnProveedor.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnIngresoCompra.Name" xml:space="preserve">
-    <value>btnIngresoCompra</value>
-  </data>
-  <data name="&gt;&gt;btnIngresoCompra.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIngresoCompra.Parent" xml:space="preserve">
-    <value>pnlCompra</value>
-  </data>
-  <data name="&gt;&gt;btnIngresoCompra.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="pnlCompra.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="pnlVenta.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 47</value>
   </data>
-  <data name="pnlCompra.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="pnlVenta.Size" type="System.Drawing.Size, System.Drawing">
     <value>818, 395</value>
   </data>
-  <data name="pnlCompra.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="pnlVenta.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="pnlCompra.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;pnlVenta.Name" xml:space="preserve">
+    <value>pnlVenta</value>
   </data>
-  <data name="&gt;&gt;pnlCompra.Name" xml:space="preserve">
-    <value>pnlCompra</value>
-  </data>
-  <data name="&gt;&gt;pnlCompra.Type" xml:space="preserve">
+  <data name="&gt;&gt;pnlVenta.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlCompra.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlVenta.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlCompra.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;pnlVenta.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -6523,77 +6322,29 @@
   <data name="&gt;&gt;btnIngresoCompra.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>pnlInventario</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnCategorias.Name" xml:space="preserve">
-    <value>btnCategorias</value>
-  </data>
-  <data name="&gt;&gt;btnCategorias.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCategorias.Parent" xml:space="preserve">
-    <value>pnlInventario</value>
-  </data>
-  <data name="&gt;&gt;btnCategorias.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnUnidMedidas.Name" xml:space="preserve">
-    <value>btnUnidMedidas</value>
-  </data>
-  <data name="&gt;&gt;btnUnidMedidas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnUnidMedidas.Parent" xml:space="preserve">
-    <value>pnlInventario</value>
-  </data>
-  <data name="&gt;&gt;btnUnidMedidas.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnProducto.Name" xml:space="preserve">
-    <value>btnProducto</value>
-  </data>
-  <data name="&gt;&gt;btnProducto.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnProducto.Parent" xml:space="preserve">
-    <value>pnlInventario</value>
-  </data>
-  <data name="&gt;&gt;btnProducto.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnlInventario.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="pnlCompra.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 47</value>
   </data>
-  <data name="pnlInventario.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="pnlCompra.Size" type="System.Drawing.Size, System.Drawing">
     <value>818, 395</value>
   </data>
-  <data name="pnlInventario.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="pnlCompra.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="pnlInventario.Visible" type="System.Boolean, mscorlib">
+  <data name="pnlCompra.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;pnlInventario.Name" xml:space="preserve">
-    <value>pnlInventario</value>
+  <data name="&gt;&gt;pnlCompra.Name" xml:space="preserve">
+    <value>pnlCompra</value>
   </data>
-  <data name="&gt;&gt;pnlInventario.Type" xml:space="preserve">
+  <data name="&gt;&gt;pnlCompra.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlInventario.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlCompra.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlInventario.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;pnlCompra.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -7381,89 +7132,29 @@
   <data name="&gt;&gt;btnProducto.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>pnlOpciones</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnUsuario.Name" xml:space="preserve">
-    <value>btnUsuario</value>
-  </data>
-  <data name="&gt;&gt;btnUsuario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnUsuario.Parent" xml:space="preserve">
-    <value>pnlOpciones</value>
-  </data>
-  <data name="&gt;&gt;btnUsuario.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnOpciones.Name" xml:space="preserve">
-    <value>btnOpciones</value>
-  </data>
-  <data name="&gt;&gt;btnOpciones.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnOpciones.Parent" xml:space="preserve">
-    <value>pnlOpciones</value>
-  </data>
-  <data name="&gt;&gt;btnOpciones.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnTipoUsuario.Name" xml:space="preserve">
-    <value>btnTipoUsuario</value>
-  </data>
-  <data name="&gt;&gt;btnTipoUsuario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTipoUsuario.Parent" xml:space="preserve">
-    <value>pnlOpciones</value>
-  </data>
-  <data name="&gt;&gt;btnTipoUsuario.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnImpresoras.Name" xml:space="preserve">
-    <value>btnImpresoras</value>
-  </data>
-  <data name="&gt;&gt;btnImpresoras.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnImpresoras.Parent" xml:space="preserve">
-    <value>pnlOpciones</value>
-  </data>
-  <data name="&gt;&gt;btnImpresoras.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="pnlOpciones.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="pnlInventario.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 47</value>
   </data>
-  <data name="pnlOpciones.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="pnlInventario.Size" type="System.Drawing.Size, System.Drawing">
     <value>818, 395</value>
   </data>
-  <data name="pnlOpciones.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="pnlInventario.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="pnlOpciones.Visible" type="System.Boolean, mscorlib">
+  <data name="pnlInventario.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;pnlOpciones.Name" xml:space="preserve">
-    <value>pnlOpciones</value>
+  <data name="&gt;&gt;pnlInventario.Name" xml:space="preserve">
+    <value>pnlInventario</value>
   </data>
-  <data name="&gt;&gt;pnlOpciones.Type" xml:space="preserve">
+  <data name="&gt;&gt;pnlInventario.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlOpciones.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlInventario.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlOpciones.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;pnlInventario.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8665,6 +8356,30 @@
   <data name="&gt;&gt;btnImpresoras.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="pnlOpciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 47</value>
+  </data>
+  <data name="pnlOpciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 395</value>
+  </data>
+  <data name="pnlOpciones.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="pnlOpciones.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlOpciones.Name" xml:space="preserve">
+    <value>pnlOpciones</value>
+  </data>
+  <data name="&gt;&gt;pnlOpciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOpciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlOpciones.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 32</value>
   </data>
@@ -8685,39 +8400,6 @@
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>13</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 449</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 115</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>14</value>
   </data>
   <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8790,183 +8472,6 @@
   </data>
   <data name="panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;chbFrigo.Name" xml:space="preserve">
-    <value>chbFrigo</value>
-  </data>
-  <data name="&gt;&gt;chbFrigo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chbFrigo.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;chbFrigo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblDocumentosElectronicosSinEnviar.Name" xml:space="preserve">
-    <value>lblDocumentosElectronicosSinEnviar</value>
-  </data>
-  <data name="&gt;&gt;lblDocumentosElectronicosSinEnviar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblDocumentosElectronicosSinEnviar.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblDocumentosElectronicosSinEnviar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblConexion.Name" xml:space="preserve">
-    <value>lblConexion</value>
-  </data>
-  <data name="&gt;&gt;lblConexion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblConexion.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblConexion.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblEmpresa.Name" xml:space="preserve">
-    <value>lblEmpresa</value>
-  </data>
-  <data name="&gt;&gt;lblEmpresa.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblEmpresa.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblEmpresa.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;lblTipoUsuario.Name" xml:space="preserve">
-    <value>lblTipoUsuario</value>
-  </data>
-  <data name="&gt;&gt;lblTipoUsuario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTipoUsuario.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblTipoUsuario.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;lblUsuario.Name" xml:space="preserve">
-    <value>lblUsuario</value>
-  </data>
-  <data name="&gt;&gt;lblUsuario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblUsuario.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblUsuario.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;lblCaja.Name" xml:space="preserve">
-    <value>lblCaja</value>
-  </data>
-  <data name="&gt;&gt;lblCaja.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCaja.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblCaja.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblBodega.Name" xml:space="preserve">
-    <value>lblBodega</value>
-  </data>
-  <data name="&gt;&gt;lblBodega.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblBodega.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblBodega.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 9</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>893, 101</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="chbFrigo.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -9340,6 +8845,48 @@
   <data name="&gt;&gt;lblBodega.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 9</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>893, 101</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 449</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 115</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
   <data name="btnPruebas.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 536</value>
   </data>
@@ -9402,138 +8949,6 @@
   </data>
   <data name="&gt;&gt;lblFiscal.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnEBoleta.Name" xml:space="preserve">
-    <value>btnEBoleta</value>
-  </data>
-  <data name="&gt;&gt;btnEBoleta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEBoleta.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnEBoleta.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnEFacturaExenta.Name" xml:space="preserve">
-    <value>btnEFacturaExenta</value>
-  </data>
-  <data name="&gt;&gt;btnEFacturaExenta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEFacturaExenta.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnEFacturaExenta.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnEnotaDebito.Name" xml:space="preserve">
-    <value>btnEnotaDebito</value>
-  </data>
-  <data name="&gt;&gt;btnEnotaDebito.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEnotaDebito.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnEnotaDebito.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnENotaCredito.Name" xml:space="preserve">
-    <value>btnENotaCredito</value>
-  </data>
-  <data name="&gt;&gt;btnENotaCredito.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnENotaCredito.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnENotaCredito.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnEGuias.Name" xml:space="preserve">
-    <value>btnEGuias</value>
-  </data>
-  <data name="&gt;&gt;btnEGuias.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEGuias.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnEGuias.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCaf.Name" xml:space="preserve">
-    <value>btnCaf</value>
-  </data>
-  <data name="&gt;&gt;btnCaf.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCaf.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnCaf.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnEFactura.Name" xml:space="preserve">
-    <value>btnEFactura</value>
-  </data>
-  <data name="&gt;&gt;btnEFactura.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEFactura.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnEFactura.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnEnvios.Name" xml:space="preserve">
-    <value>btnEnvios</value>
-  </data>
-  <data name="&gt;&gt;btnEnvios.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEnvios.Parent" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;btnEnvios.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="pnlVentasElectronicas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 47</value>
-  </data>
-  <data name="pnlVentasElectronicas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 397</value>
-  </data>
-  <data name="pnlVentasElectronicas.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="pnlVentasElectronicas.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlVentasElectronicas.Name" xml:space="preserve">
-    <value>pnlVentasElectronicas</value>
-  </data>
-  <data name="&gt;&gt;pnlVentasElectronicas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlVentasElectronicas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlVentasElectronicas.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -12011,6 +11426,30 @@
   <data name="&gt;&gt;btnEnvios.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="pnlVentasElectronicas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 47</value>
+  </data>
+  <data name="pnlVentasElectronicas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 397</value>
+  </data>
+  <data name="pnlVentasElectronicas.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="pnlVentasElectronicas.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlVentasElectronicas.Name" xml:space="preserve">
+    <value>pnlVentasElectronicas</value>
+  </data>
+  <data name="&gt;&gt;pnlVentasElectronicas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlVentasElectronicas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlVentasElectronicas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="btnVentaElectronica.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAABGdBTUEAALGPC/xhBQAAQF9JREFUeF7t
@@ -13680,7 +13119,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>AptuSoft  - Versión 1.8.3</value>
+    <value>AptuSoft  - Versión 1.8.4</value>
   </data>
   <data name="&gt;&gt;ventasToolStripMenuItem.Name" xml:space="preserve">
     <value>ventasToolStripMenuItem</value>

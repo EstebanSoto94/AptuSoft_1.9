@@ -790,7 +790,7 @@ namespace Aptusoft.FacturaElectronica.Clases
     {
       List<Venta> list = new List<Venta>();
       MySqlCommand command = this.conexion.ConexionMySql.CreateCommand();
-      ((DbCommand) command).CommandText = "SELECT idGuia,\r\n                                            folio,\r\n                                            fechaEmision,\r\n                                            idCliente,                                            \r\n                                            total                                          \r\n                                            \r\n                                    FROM electronica_guia WHERE idCliente=@idCliente AND facturada=0 AND estadoDocumento='EMITIDA'";
+      ((DbCommand) command).CommandText = "SELECT idGuia, folio, fechaEmision, idCliente,  total, subtotal   FROM electronica_guia WHERE idCliente=@idCliente AND facturada=0 AND estadoDocumento='EMITIDA'";
       command.Parameters.AddWithValue("@idCliente", (object) idCliente);
       MySqlDataReader mySqlDataReader = command.ExecuteReader();
       while (((DbDataReader) mySqlDataReader).Read())
@@ -800,6 +800,7 @@ namespace Aptusoft.FacturaElectronica.Clases
           Folio = Convert.ToInt32(((DbDataReader) mySqlDataReader)["folio"].ToString()),
           FechaEmision = Convert.ToDateTime(((DbDataReader) mySqlDataReader)["fechaEmision"].ToString()),
           Total = Convert.ToDecimal(((DbDataReader) mySqlDataReader)["total"].ToString()),
+          SubTotal = Convert.ToDecimal(((DbDataReader) mySqlDataReader)["subtotal"].ToString()),
           DocumentoVenta = "GUIA ELECTRONICA"
         });
       ((DbDataReader) mySqlDataReader).Close();
